@@ -17,9 +17,9 @@ I will be updating on a weekly basis.
 I have also composed something for Rhadoop and SparkR last semester. If you are keen in big big. These might be a good start.
 
 ##### SparkR
-* [Intro-to-SparkR](sparkR/intro)
+* [Intro-to-SparkR](/sparkR/intro)
 
-* [Linear and logistic regressions](sparkR/regressions)
+* [Linear and logistic regressions](/sparkR/regressions)
 
 
 ##### Rhadoop
