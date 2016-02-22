@@ -12,6 +12,8 @@ I will be updating on a weekly basis.
 
 * [Data import](/statsWithR/tutorials/dataImport.html)
 
+#### Chapter II Regression
+* [Simple Linear Regression] (https://angerhang.shinyapps.io/linearR/)
 
 ### For data guru
 I have also composed something for Rhadoop and SparkR last semester. If you are keen to big data. These might be a good start.
