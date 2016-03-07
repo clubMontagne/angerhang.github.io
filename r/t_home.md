@@ -17,6 +17,9 @@ I will be updating on a weekly basis.
 
 * [Simple Linear Regression II] (/statsWithR/tutorials/linearR_2.html)
 
+#### Chapter III Statistical Inference 
+* [Statistical Testing] (/statsWithR/tutorials/statsTests.html)
+
 ### For data guru
 I have also composed something for Rhadoop and SparkR last semester. If you are keen to big data. These might be a good start.
 
