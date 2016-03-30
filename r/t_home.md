@@ -15,11 +15,12 @@ I will be updating on a weekly basis.
 #### Chapter II Regression
 * [Simple Linear Regression I] (https://angerhang.shinyapps.io/linearR/)
 
-* [Simple Linear Regression II] (/statsWithR/tutorials/linearR_2.html)
+* [Simple Linear Regression II] (/statsWithR/tutorials/linearR_2)
 
 #### Chapter III Statistical Inference 
 * [Statistical Testing] (/statsWithR/tutorials/statsTests.html)
 
+* [ANOVA] (/statsWithR/tutorials/anova.html)
 ### For data guru
 I have also composed something for Rhadoop and SparkR last semester. If you are keen to big data. These might be a good start.
 
