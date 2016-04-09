@@ -21,6 +21,15 @@ I will be updating on a weekly basis.
 * [Statistical Testing] (/statsWithR/tutorials/statsTests.html)
 
 * [ANOVA] (/statsWithR/tutorials/anova.html)
+
+##### Text mining
+Part of my job at stats support is to explore the R packages that are related
+to text mining so here we go:
+
+* [Text mining overview](/statsWithR/tutorials/textMining.html)
+A brief introduction on what can we do with R for text mining tasks
+
+
 ### For data guru
 I have also composed something for Rhadoop and SparkR last semester. If you are keen to big data. These might be a good start.
 
