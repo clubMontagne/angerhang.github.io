@@ -27,7 +27,7 @@ Part of my job at stats support is to explore the R packages that are related
 to text mining so here we go:
 
 * [Text mining overview](/statsWithR/tutorials/textMining.html)
-A brief introduction on what can we do with R for text mining tasks
+A brief introduction on what can we do with R for text mining tasks.
 
 * [Introduction to text mining package](/statsWithR/tutorials/textMiningIntro.html)
 We dive into the text mining infrastructure of text mining in R and
