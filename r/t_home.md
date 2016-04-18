@@ -29,6 +29,9 @@ to text mining so here we go:
 * [Text mining overview](/statsWithR/tutorials/textMining.html)
 A brief introduction on what can we do with R for text mining tasks
 
+* [Introduction to text mining package](/statsWithR/tutorials/textMiningIntro.html)
+We dive into the text mining infrastructure of text mining in R and
+have a focus on the use of package `tm`. 
 
 ### For data guru
 I have also composed something for Rhadoop and SparkR last semester. If you are keen to big data. These might be a good start.
