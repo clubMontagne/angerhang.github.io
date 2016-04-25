@@ -15,7 +15,7 @@ I will be updating on a weekly basis.
 #### Chapter II Regression
 * [Simple Linear Regression I] (https://angerhang.shinyapps.io/linearR/)
 
-* [Simple Linear Regression II] (/statsWithR/tutorials/linearR_2)
+* [Simple Linear Regression II] (/statsWithR/tutorials/linearR_2.html)
 
 #### Chapter III Statistical Inference 
 * [Statistical Testing] (/statsWithR/tutorials/statsTests.html)
