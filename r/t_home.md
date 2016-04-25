@@ -33,6 +33,8 @@ A brief introduction on what can we do with R for text mining tasks.
 We dive into the text mining infrastructure of text mining in R and
 have a focus on the use of package `tm`. 
 
+* [Introduction to TwitteR](/statsWithR/tutorials/twitterR.html) A fun package that gives us access to Twitter's web API. We will do a naive analysis on Donald Trump's popularity in the end.
+
 ### For data guru
 I have also composed something for Rhadoop and SparkR last semester. If you are keen to big data. These might be a good start.
 
