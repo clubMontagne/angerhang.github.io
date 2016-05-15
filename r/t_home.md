@@ -37,6 +37,8 @@ have a focus on the use of package `tm`.
 
 * [Webmining](/statsWithR/tutorials/webMining.html) Use `tm.plugin.webmining` package to retrieve feeds from the web.
 
+* [RText](/statsWithR/tutorials/rtext.html) A package that contains 9 common supervised learnings such as SVM and neural network as a start-to-product tool. Great for prototyping and experimenting.
+
 ### For data guru
 I have also composed something for Rhadoop and SparkR last semester. If you are keen to big data. These might be a good start.
 
