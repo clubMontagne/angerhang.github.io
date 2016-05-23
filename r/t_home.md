@@ -12,7 +12,7 @@ I will be updating on a weekly basis.
 
 * [Data import](/statsWithR/tutorials/dataImport.html)
 
-* [RMySQL](/statsWithR/tutorials/mySql.html) An interface between MySQL and R.
+* [RMySQL](/statsWithR/tutorials/mySQL.html) An interface between MySQL and R.
 
 #### Chapter II Regression
 * [Simple Linear Regression I] (https://angerhang.shinyapps.io/linearR/)
