@@ -1,38 +1,34 @@
 <div class="sidebar">
-  
-  <div class="container sidebar-sticky">
-      <div class="sidebar-about">
-      <h1>
+
+    <div class="container sidebar-sticky">
+        <div class="sidebar-about">
+            <h1>
         <a href="{{ site.baseurl }}">
           {{ site.title }}
         </a>
       </h1>
-      <p class="lead">{{ site.description }}</p>
-    </div> 
+            <p class="lead">{{ site.description }}</p>
+        </div>
 
-    <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+        <nav class="sidebar-nav">
+            <a class="sidebar-nav-item" href="https://de.linkedin.com/in/hang-calvin-yuan-ba446456">
+                <img border="0" src="/img/linkedin.png" width="30" height="30">
+            </a>
+            <a class="sidebar-nav-item" href="{{ site.github.repo }}">
+                <img border="0" src="/img/github.png" width="30" height="30">
+            </a>
+            <a class="sidebar-nav-item" href="mailto:angerhangy@gmail.com">
+                <img border="0" src="/img/email.png" width="30" height="30">
+            </a>
+            <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a> {% comment %} The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter. See readme for usage. {% endcomment %} {% assign pages_list = site.pages %} {% for node in pages_list %} {% if node.title != null %} {% if node.layout == "page" %} {% endif %} {% endif %} {% endfor %}
 
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
+            <a class="sidebar-nav-item" src="/research/new.png" href="/research/research_home">Research</a>
+            <a class="sidebar-nav-item" href="/blog/blog_home">Blog</a>
+            <a class="sidebar-nav-item" href="/extra/resume.pdf">Resume</a>
 
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-        {% if node.layout == "page" %}
-	
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-      
-      <a class="sidebar-nav-item" href="/r/t_home">Stats with R</a>
-      <a class="sidebar-nav-item" href="/extra/resume.pdf">Resume</a>
-      <a class="sidebar-nav-item" href="https://de.linkedin.com/in/hang-calvin-yuan-ba446456">Linkedin</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-    </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
-  </div>
+        </nav>
+
+        <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    </div>
 </div>
