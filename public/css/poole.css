@@ -298,16 +298,20 @@ blockquote p:last-child {
     }
 }
 
-
-/*
 img {
   display: block;
   max-width: 100%;
   margin: 0 0 1rem;
   border-radius: 5px;
 }
-*/
 
+.nav-img {
+    display: inline;
+    max-width: none;
+    border-radius: 0px;
+    border-radius: 0px;
+    margin: 0px;
+}
 
 /* Tables */
 
