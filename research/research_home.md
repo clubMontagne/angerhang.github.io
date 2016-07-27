@@ -16,3 +16,9 @@ To me, neuroscience's importance in the 21st century is like the DNA to the 20th
 * [Statistics with R](/r/r_home): During my time working as a student assistant for professor Adalbert Wilhelm. We compiled a list of tutorials for intro stats courses at Jacobs university. This tutorial series covers a wide range of topics ranging from primitive data types to text mining. The repo is still under development. The tutorials are host on [Github](https://github.com/angerhang/statsTutorial). Any feedbacks or contributions are welcome.
 
 * [Data visualization](https://www.imperial.ac.uk/data-science/about-the-institute/facilities/kpmg-data-observatory-/): Currently, I am working in the KPMG Data Observatory (KDO) at Imperial College London. KDO has 64 HD displays in a panoramic view with full range audio system. As counter intuitive as it might seem, the core of KDO is to present the detailed resolution while maintain the general pattern of different visualizations because normally when we do visualization, we use reductionist's approach by eliminating the noises and reducing the complexities of the data sets so to make the visualizations fit our PC screens. In KDO, it is doing the exactly appositive, trying to understand whether the visualizations at a larger scale and at a better resolution are able reveal more insights about the data available.
+
+![](/img/gdo.JPG)
+A visualization I created for London crime and transport 
+
+---
+Photo credit: Karun Matharu
