@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Coursera Machine Learning Specialization Review part I
+date: 2016-02-12
 ---
+{{ page.date }}
 
 Progress:
 Two courses finished:

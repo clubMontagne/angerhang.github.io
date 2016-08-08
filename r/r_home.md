@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Statistics with R
+date: 2015-10-12
 ---
+{{ page.date }}
 
 This collection of tutorials is made for the statistics support center at Jacobs University. See the repo [here](https://github.com/angerhang/statsTutorial). If you find any mistake or want to contribute, you are very welcome to open up an issue and point it out : )
 

@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Coursera Machine Learning Review
+date: 2016-01-10
 ---
+{{ page.date }}
 
 Continuing my adventure on machine learning and MOOCs, I decided to take Stanford's [Machine Learning](https://www.coursera.org/learn/machine-learning/) taught by Andrew Ng. This course is the starting
 point of many people's machine learning career. It covers a wide variety of topics ranging from simple regressions to more
