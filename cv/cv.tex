@@ -1,0 +1,285 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+ % 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Hang}{Yuan}{ \urlstyle{same}\url{http://angerhang.github.io} \\
+\href{mailto:h.yuan@jacobs-university.de}{h.yuan@jacobs-university.de} | +49 157 877 06732 | Campus Ring 1, Bremen, Germany, 28759
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\subsection{\normalsize{Carnegie Mellon University}}
+\descript{\small{Exchange at School of Computer Science}}
+\location{Aug 2016 - Present | Pittsburg, USA}
+\sectionsep
+
+\subsection{Jacobs University}
+\descript{Bachelor in Computer Science}
+\location{Aug 2014 - June 2017 | Bremen, Germany}
+\sectionsep
+
+\subsection{Valley Christian HS}
+\location{Aug 2012 - May 2014 | Los Angeles, USA}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+
+\subsection{School Courses}
+Software Engineering and its Lab \\
+Programming in Java \\
+Programming in C++ \\
+General Computer Science I \& II \\
+Computability and Complexity \\
+Formal Language and Logic \\
+Computer Architecture \\ 
+Linear Algebra \\
+Applied Differential Equations \\ 
+
+\sectionsep
+
+\subsection{Open Courses (MOOCs)}
+{\large Stanford}: \\
+Machine Learning (ML) \\
+
+\sectionsep
+{\large University of Washington}:  \\
+ML Foundations  \\
+ML Regressions  \\
+ML Classification
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Comfortable}
+Java \textbullet{}   C/C++ \textbullet{} R \textbullet{} Python \textbullet \LaTeX \\
+\location{Basic}
+Perl \textbullet{} SML \textbullet{} Emacs \textbullet{} Shell \textbullet{} iOS \\
+
+\sectionsep
+
+\subsection{Languages}
+Chinese (native) \textbullet{}  English (fluent) \\
+German (basic) \textbullet{}   Spanish (basic)
+
+\sectionsep
+
+\section{Hobbies}
+\location{Clarinet 10 years}
+\textbullet{}  Bremer Orchester Gemeinschaft 2015 \\
+%\textbullet{} Valley Christian High School Band and Orchestra 
+%Section Leader 2013 - 2014 \\
+\location{Tennis 10 years}
+\textbullet{} High School Tennis Varsity \\
+\textbullet{} Most Inspirational Player (School wide) 2014 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{KPMG Data Observatory, Imperial College}
+\descript{| Research Intern}
+\location{June 2016 – Present | London, The United Kingdom}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Created visualizations about London city crime and transport to the local governors on the 64 HD 
+screens panoramic observatory. 
+\item Simulated large-scale 3D models, including
+oil flow in Saudi Arabia and atom collision in a nuclear power plant in a distributed fashion using Unity. 
+\end{tightemize}
+\sectionsep
+
+\runsubsection{KWARC Research Group}
+\descript{| Research Assistant under prof. Michael Koklhase}
+\location{Dec 2014 - Present | Bremen, Germany}
+\begin{tightemize}
+\item Developed Semantic \TeX \ (sTeX) LaTeXML plugin which transfers 
+ s\TeX\ to OMDoc.
+ \item Contributed to the mixing the Module Mathematical Theories and sTeX
+ as surface languages (publication on CICM will soon become available).
+\end{tightemize}
+
+\sectionsep
+
+\runsubsection{Jacobs University}
+\descript{| Research Assistant under prof. Adalbert F.X. Wilhelm}
+\location{Sep 2015 - May 2016 | Bremen, Germany}
+\begin{tightemize}
+\item  Benchmarked distributed computing frameworks.
+\item Held weekly tutorials on statistics and compiled a tutorial series on R.
+\end{tightemize}
+\sectionsep
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\section{Research}
+%\runsubsection{Cornell Robot Learning Lab}
+%\descript{| Head Undergrad Research}
+%\location{Jan 2014 – Present | Ithaca, NY}
+%Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  Publication submitted.
+%\sectionsep
+%
+%\runsubsection{Cornell Phonetics Lab}
+%\descript{| Head Undergraduate Researcher}
+%\location{Mar 2012 – May 2013 | Ithaca, NY}
+%Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. Publication submitted.
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards and Fundings} 
+\awards{\textbf{Second Place  top 10\%} OpenBank Hackathon} 
+\Alocation{Jul 2016 | Google London Campus, The United Kingdom}
+\begin{tightemize}
+\item Bytebit: selling Wifi using Bitcoins via micro-transactions in real time 
+ and got invited to pitch at London FinTech week's innovator panel.
+\end{tightemize}
+
+\sectionsep
+
+\awards{Wiki Data Prize HPI Machine Learning and Data Analytics Hackathon}
+\Alocation{Jun 2016 | Berlin, Germany}
+\begin{verytightemize}
+\item ShowcaseData: created a data quality metric model for Wiki Data's open source databases.
+\end{verytightemize}
+
+\sectionsep
+\awards{ERASMUS+ Traineeship}
+\Alocation{Jun 2016 | Bremen, Germany}
+\begin{verytightemize}
+\item 450 euros per month for my internship in the UK.
+\end{verytightemize}
+
+\sectionsep
+\awards{Promos Scholar}
+\Alocation{Jun 2016 | Bremen, Germany}
+\begin{verytightemize}
+\item 1900 euros for the exchange semester at Carnegie Mellon University.
+\end{verytightemize}
+
+\sectionsep
+\awards{Global Jacobs Startup Competition \textbf{top 10/130+ 8\%}}
+\Alocation{Mar 2015 | Bremen, Germany}
+\begin{verytightemize}
+\item Developed an application called MyNow for the competition.
+MyNow is a time management and social network app that allows users to 
+track their time and interact with their friends. (on Apple Apps Store) 
+\end{verytightemize}
+
+\sectionsep
+\awards{Jacobs University Entrance Scholarship}
+\Alocation{Sep 2014 | Bremen, Germany}
+\begin{verytightemize}
+\item  Merit-based scholarship for academic excellence that last for three years
+\end{verytightemize}
+
+
+\sectionsep
+\awards{Daniel Award for International Student Leadership 1/100+ top 1\%}
+\Alocation{Apr 2014 | Los Angeles, USA}
+\begin{verytightemize}
+\item  One international students was selected
+for demonstration of leadership. 
+\end{verytightemize}
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
+
+

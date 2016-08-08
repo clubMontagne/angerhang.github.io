@@ -9,8 +9,8 @@ there aren't that many tutorials online yet, which serves as the primary motivat
 
 So far, I have written two basic tutorials and more is on the way. 
 
-* [Intro-to-SparkR](/blog/sparkR/intro.html)
+* [Intro-to-SparkR](/intro.html)
 
-* [Linear and logistic regressions](/sparkR/regressions.html)
+* [Linear and logistic regressions](/regressions.html)
 
 This work is done under the supervision of Adalbert F. X. Wilhelm at Jacobs University.
