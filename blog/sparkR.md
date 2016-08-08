@@ -11,6 +11,6 @@ So far, I have written two basic tutorials and more is on the way.
 
 * [Intro-to-SparkR](/blog/sparkR/intro.html)
 
-* [Linear and logistic regressions](/sparkR/regressions.html)
+* [Linear and logistic regressions](/blog/sparkR/regressions.html)
 
 This work is done under the supervision of Adalbert F. X. Wilhelm at Jacobs University.
