@@ -13,3 +13,5 @@ title: Blog directory
 * [Intelligence](/research/intelligence.pdf): Some thoughts I had after reading Jeff Hawkins' On Intelligence. I compared the Turing proposal for intelligence and that of Hawkins'.
 
 * [Yet Another Guide to Hackathon](/blog/how_to_hackathon)
+
+* [Undergraduate Research 101](/blog/undergraduate_research)
