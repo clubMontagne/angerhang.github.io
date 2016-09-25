@@ -61,7 +61,7 @@ If you already vaguely know what interests you when entering college like my fri
 
 * [How to email professor and Virtually Guarantee the Response](http://www.huffingtonpost.com/svetlana-dotsenko/how-to-email-professors-and-virtually-guarantee-the-response_b_9190904.html)
 * [How to send and reply to email](http://matt.might.net/articles/how-to-email/)
-* [How to Email Your Professor (without being annoying AF)](https://medium.com/@lportwoodstacer/how…)
+* [How to Email Your Professor (without being annoying AF)](https://medium.com/@lportwoodstacer/how-to-email-your-professor-without-being-annoying-af-cf64ae0e4087#.im81iq8op)
 
 Most generally, you might get frustrated if you don't any a reply from the professor who you want to work with, send a follow up email a week after if you still haven't heard back. Your email might just disappear in the sea of letters. The key here is really about the quality but not the quantity. 
 
