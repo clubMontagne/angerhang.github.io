@@ -13,6 +13,9 @@ To me, neuroscience's importance in the 21st century is like the DNA to the 20th
 ### Mathematical Knowledge Management (MKM)
 * [Semantic TeX](https://github.com/KWARC/sTeX) (sTeX): sTeX is my very first research project. Ever since the first semester in college, I have been working with professor Michael Kohlhase and one of his lovely PhD students Deyan Ginev at KWARC group. Involvement in sTeX has taught me a lot on both the theoretical ground and the implementation ground. To put it a simple way, MathML, OpenMath and OMDoc are machine-friendly formats for math so that the machines can do search, automated proving and cross-referencing easily. TeX is the main driving horse for high quality mathematics documents authoring. A variant of TeX that allows for structural formats, enables us to transform those documents into OMDoc with the help of [LaTeXML sTeX plugin](https://github.com/KWARC/LaTeXML-Plugin-sTeX) to let machines operate on the documents.
 
+##### Work in Progress Paper on sTeX
+[Mixing Surface Languages for OMDoc](/research/cicm_2016.pdf)
+
 ### Data Science
 * [Statistics with R](/r/r_home): During my time working as a student assistant for professor Adalbert Wilhelm. We compiled a list of tutorials for intro stats courses at Jacobs university. This tutorial series covers a wide range of topics ranging from primitive data types to text mining. The repo is still under development. The tutorials are host on [Github](https://github.com/angerhang/statsTutorial). Any feedbacks or contributions are welcome.
 
@@ -20,6 +23,9 @@ To me, neuroscience's importance in the 21st century is like the DNA to the 20th
 
 ![](/img/gdo.JPG)
 A visualization I created for London crime and transport 
+
+##### Student Research Paper
+[The Evolution of Web Search Engines: Past, Present and Future](/research/bigData.pdf): a research paper presented in the Big Data Student Symposium in 2015.
 
 ---
 Photo credit: Karun Matharu
