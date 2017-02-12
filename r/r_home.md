@@ -16,15 +16,17 @@ I will be updating on a weekly basis.
 
 * [RMySQL](/statsWithR/tutorials/mySQL.html) An interface between MySQL and R.
 
-#### Chapter II Regression
-* [Simple Linear Regression I] (https://angerhang.shinyapps.io/linearR/)
+* [Data Operations and Plotting](/statsWithR/tutorials/dataOp.html)
 
-* [Simple Linear Regression II] (/statsWithR/tutorials/linearR_2.html)
+#### Chapter II Regression
+* [Simple Linear Regression I](https://angerhang.shinyapps.io/linearR/)
+
+* [Simple Linear Regression II](/statsWithR/tutorials/linearR_2.html)
 
 #### Chapter III Statistical Inference 
-* [Statistical Testing] (/statsWithR/tutorials/statsTests.html)
+* [Statistical Testing](/statsWithR/tutorials/statsTests.html)
 
-* [ANOVA] (/statsWithR/tutorials/anova.html)
+* [ANOVA](/statsWithR/tutorials/anova.html)
 
 ##### Text mining
 Part of my job at stats support is to explore the R packages that are related
