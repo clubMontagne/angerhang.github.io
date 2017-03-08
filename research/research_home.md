@@ -5,7 +5,14 @@ title: Research
 [Undergraduate Research 101](/blog/undergraduate_research): is a guide for undergraduate students who would like to know how to get started with research.
 
 ### Theoretical Neuroscience
-To me, neuroscience's importance in the 21st century is like that of the DNA to the 20th century. We humans have grasped a good understanding on various subjects such as materials, architecture and sounds. Sadly, we have failed to understand where all these understandings come from, the brain. The research on brain have been accelerated with the appearance of advanced instruments that allow us to observe the brain activities in non-invasive ways. I think it is important to for us to know about ourselves first before we tackle other difficult problems and my primary interests lay in human intelligence and the formation of memory.
+To me, neuroscience's importance in the 21st century is like that of the DNA to the 20th century. We humans have grasped a good understanding on many subjects already. Sadly, we have failed to understand where all these understandings come from, the brain. The research on brain have been accelerated with the appearance of advanced instruments that allow us to observe the brain activities in both invasive and non-invasive ways. I think it is important to for us to know about ourselves first before we tackle other difficult problems and my primary interests lay in human intelligence and using the understanding of brain signals let us more ways to interact with the outside world and with each other via Brain-Computer-Interfaces.
+
+#### Echo State Networks (ESNs)
+ESNs are a type of Recurrent Neural Networks (RNNs) that are easy to train but still maintain the power of capturing the temporal information that do. In the bachelor thesis that I am writing, I am investigating how well ESNs handle the EEG signals using the resting state EEG. In my thesis I am planning on using on trained model to investigate more about the association between resting state EEG and people's motor learning skills.
+
+
+#### Related work
+* [Facial Verifier](/resources/cv_poster.pdf): This is a computer vision project that I did with two other fiends at CMU. Basically we built a facial verifier using ConvNets and joint-Bayesian methods. We were able to achieve good performance that was comparable to the stats mentioned in the relevant papers.
 
 * [Intelligence](/research/intelligence.pdf): Some thoughts I had after reading Jeff Hawkins' On Intelligence. I compared the intelligence that Turing proposes and the one of Hawkins.
 
