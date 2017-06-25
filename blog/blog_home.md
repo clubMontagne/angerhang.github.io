@@ -21,4 +21,5 @@ title: Blog directory
 
 * [Undergraduate Research 101](/blog/undergraduate_research)
 
-* [My First Date with Interdisciplinary College (IK)](/blog/2017/ik)
+* [My First Date with Interdisciplinary College (IK)](/blog/2017/ik): this blog has a shorter and more concise version appeared in German Artificial Intelligence Journal (Künstliche Intelligenz). Last entry of [this](/extra/ik.pdf).
+
