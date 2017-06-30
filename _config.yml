@@ -9,14 +9,15 @@ permalink:        pretty
 
 # Setup
 title:            Hang Yuan
-tagline:          'BLOGS'
-description:      CS@JACOBS Uni 2017
+tagline:          Hang's space 
+description:      Neuro@<a href="https://www.epfl.ch">EPFL</a> 2019 
 baseurl:          /
 
 author:
-  name:           'Hang Yuan'
+  name:           Hang Yuan
   url:            https://de.linkedin.com/pub/hang-calvin-yuan/56/464/ba4
-
+  mail:           mailto:hang.yuan@epfl.ch
+  
 paginate:         1
 
 # Custom vars
