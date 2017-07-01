@@ -2,15 +2,15 @@
 layout: page
 title: Yet another guide to Hackathon
 date: 2016-08-08
+comments: true
 ---
-{{ page.date }}
 
 After winning two hackathons in Berlin (HPI Data Analytics and Machine Learning Hack) and in London (Open Bank Project HacK) this summer, I think it's about the time to write an article about hackathon. The topics will consist:
 
-* [What is a hackathon?] (#topic1)
-* [How can I attend a hackathon?] (#topic2)
-* [How can I win a hackathon?] (#topic3)
-* [What should I do after a hackathon?] (#topic4)
+* [What is a hackathon?](#topic1)
+* [How can I attend a hackathon?](#topic2)
+* [How can I win a hackathon?](#topic3)
+* [What should I do after a hackathon?](#topic4)
 
 ###  <a name="topic1"></a> What is a hackathon?
 If you are reading my blog, you probably already have a vague idea of what a hackathon is - a marathon like event for hackers to build awesome projects over a short period of time. A hackathon can last from a day to a week, a hackathon can have a specific theme or allow you to build anything you want and a hackathon can have from ten-ish to over one thousand participants. 

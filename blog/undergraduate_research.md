@@ -2,8 +2,8 @@
 layout: page
 title: Undergraduate research 101
 date: 2016-09-25
+comments: true
 ---
-{{ page.date }}
 
 Inspired by a friend of mine who just started his computer science career 
 at CMU out of high school, I have finally found some time to write this long waited Undergraduate Research

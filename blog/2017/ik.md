@@ -2,10 +2,8 @@
 layout: page
 title: My First Date with Interdisciplinary College (IK)
 date: 2017-03-20
+comments: true
 ---
-{{ page.date }} ||
-length: 1600 words || 
-reading time: 6 mins
 
 Last week, I got the chance to attend [IK](https://interdisciplinary-college.de) at Guenne in Northern Germany. The whole week was packed with inspirational lecture series and thought-provoking conversations. I got to meet many scientists and students coming from different backgrounds that were interested in the intersection of brain sciences, life sciences, and artificial intelligence. I would totally love to go back to IK again next year if I get the chance.
 

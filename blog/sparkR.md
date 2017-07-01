@@ -3,7 +3,6 @@ layout: page
 title: SparkR tutorials
 date: 2015-10-10
 ---
-{{ page.date }}
 
 Spark is one of the sexiest tool that is used for big data processing and R is the language
 of many data analysts as well. SparkR is a good combination of these two great things, however
