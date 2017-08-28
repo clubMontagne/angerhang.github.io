@@ -10,7 +10,8 @@ permalink:        pretty
 # Setup
 title:            Hang Yuan
 tagline:          Hang's space 
-description:      Neuro@<a href="https://www.epfl.ch">EPFL</a> 2019 
+description:      Neuro@<a href="https://www.epfl.ch">EPFL</a> 2019
+url:              http://angerhang.github.io
 baseurl:          /
 
 author:
