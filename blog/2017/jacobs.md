@@ -4,10 +4,11 @@ title: The things that I wish I would have known in college -- Goodbye Jacobs an
 date: 2017-08-28
 comments: true
 ---
+
 On June 11th of this year, one of my best friends Noma from Zimbabwe updated 
 her Facebook profile into the picture below:
 
-<img src="/img/grad.jpg" alt="Drawing" style="width: 60%; display:block; margin: 0 auto;"/>
+<img src="/img/grad.JPG" alt="Drawing" style="width: 60%; display:block; margin: 0 auto;"/>
 From left to right is me, Noma and Thato (another good friend of mine from Lesotho) wearing Jacobs Robe and scarf. The description that Noma put for the photo was "Thank you for being my two pillars of strength for the past three years,
 As we say at Jacobs, this is not goodbye but it's a see you later!!!" In case
 you are wondering, yes we finally graduated.
@@ -81,12 +82,12 @@ Again let me summarize what I found important in my college time:
 * Remember to have fun
 
 
-<img src="/img/lake.jpg" alt="Drawing" style="width: 80%; display:block; margin: 0 auto;"/>
+<img src="/img/lake.JPG" alt="Drawing" style="width: 80%; display:block; margin: 0 auto;"/>
 The lake view in front of EPFL campus
 
 ### What's next at EPFL 
 I really hope that you enjoyed reading this post and if you have experienced anything common in your college life. Please feel free
 to comment below, I'd love to know the life lessons you learned in college and if other people experienced similar issues as I did. So that was the end of my undergrad career and I am already at EPFL doing the intensive French course before all the courses start. Till this day, I have been enjoying the wonderful weather and the beautiful lakes. EPFL even has a really good Chinese restaurant on Campus. What can I complain!?s I feel really excited to embark my next journey at EPFL and also my lab assistantship at professor Courtine's lab on spinal cord. Keep in touch and more is to come :D 
 
-<img src="/img/chinese.jpg" alt="Drawing" style="width: 60%; display:block; margin: 0 auto;"/>
+<img src="/img/chinese.JPG" alt="Drawing" style="width: 60%; display:block; margin: 0 auto;"/>
 The Chinese resturant in Rolex Learning Center is AWESOME :D - said by a Chinese 
