@@ -5,13 +5,13 @@ highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
-#relative_permalinks: true
 
 # Setup
 title:            Hang Yuan
-tagline:          Hang's space 
+tagline:          Hang's space
 description:      Neuro@<a href="https://www.epfl.ch">EPFL</a> 2019
-url:              http://angerhang.github.io
+site_base:        https://angerhang.github.io/
+url:              https://angerhang.github.io/
 baseurl:          /
 
 author:

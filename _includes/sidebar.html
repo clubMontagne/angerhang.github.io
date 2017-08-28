@@ -18,7 +18,7 @@
             <a class="sidebar-nav-item" href="{{ site.author.mail }}">
                 <img border="0" class="nav-img" src="/img/email.png" width="30" height="30">
             </a>
-            <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">About</a> {% comment %} The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter. See readme for usage. {% endcomment %} {% assign pages_list = site.pages %} {% for node in pages_list %} {% if node.title != null %} {% if node.layout == "page" %} {% endif %} {% endif %} {% endfor %}
+            <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.site_base }}">About</a> {% comment %} The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter. See readme for usage. {% endcomment %} {% assign pages_list = site.pages %} {% for node in pages_list %} {% if node.title != null %} {% if node.layout == "page" %} {% endif %} {% endif %} {% endfor %}
 
             <a class="sidebar-nav-item" href="/research/research_home/">Research</a>
             <a class="sidebar-nav-item" href="/blog/blog_home/">Blog</a>
