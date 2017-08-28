@@ -12,7 +12,7 @@ ESNs are a type of Recurrent Neural Networks (RNNs) that are easy to train but s
 
 
 #### Related work
-* [Facial Verifier](/resources/cv_poster.pdf): This is a computer vision project that I did with two other fiends at CMU. Basically we built a facial verifier using ConvNets and joint-Bayesian methods. We were able to achieve good performance that was comparable to the stats mentioned in the relevant papers.
+* [Facial Verifier](/resources/cv_poster.pdf): This is a computer vision project that I did with two other friends at CMU. Basically we built a facial verifier using ConvNets and joint-Bayesian methods. We were able to achieve good performance that was comparable to the stats mentioned in the relevant papers.
 
 * [Intelligence](/research/intelligence.pdf): Some thoughts I had after reading Jeff Hawkins' On Intelligence. I compared the intelligence that Turing proposes and the one of Hawkins.
 

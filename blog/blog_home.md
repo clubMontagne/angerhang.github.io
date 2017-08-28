@@ -21,5 +21,6 @@ title: Blog directory
 
 * [Undergraduate Research 101](/blog/undergraduate_research)
 
-* [My First Date with Interdisciplinary College (IK)](/blog/2017/ik): this blog has a shorter and more concise version appeared in German Artificial Intelligence Journal (Künstliche Intelligenz). Last entry of [this](/extra/ik.pdf).
+* [My First Date with Interdisciplinary College (IK)](/blog/2017/ik): this blog has a shorter and more concise version appeared as a conference report in **German Artificial Intelligence Journal** (Künstliche Intelligenz). Last entry of [this](/extra/ik.pdf).
 
+* [The things that I wish I would have known in college -- Goodbye Jacobs and hello EPFL](/blog/2017/jacobs): The lessons that I learned during my undergraduate career.
