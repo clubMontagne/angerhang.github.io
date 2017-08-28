@@ -418,6 +418,15 @@ tbody tr:nth-child(odd) th {
     margin-bottom: 4em;
 }
 
+/* Make the page content width greater */
+
+@media (min-width: 48em) {
+    .page,
+    .post {
+        margin-bottom: 4em;
+        margin-left: -5em;
+    }
+}
 
 /* Blog post or page title */
 
