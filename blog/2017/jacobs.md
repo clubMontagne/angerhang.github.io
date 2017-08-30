@@ -90,4 +90,4 @@ I really hope that you enjoyed reading this post and if you have experienced any
 to comment below, I'd love to know the life lessons you learned in college and if other people experienced similar issues as I did. So that was the end of my undergrad career and I am already at EPFL doing the intensive French course before all the courses start. Till this day, I have been enjoying the wonderful weather and the beautiful lakes. EPFL even has a really good Chinese restaurant on Campus. What can I complain!?s I feel really excited to embark my next journey at EPFL and also my lab assistantship at professor Courtine's lab on spinal cord. Keep in touch and more is to come :D 
 
 <img src="/img/chinese.JPG" alt="Drawing" style="width: 60%; display:block; margin: 0 auto;"/>
-The Chinese resturant in Rolex Learning Center is AWESOME :D - said by a Chinese 
+The Chinese restaurant in Rolex Learning Center is AWESOME :D - said by a Chinese 
