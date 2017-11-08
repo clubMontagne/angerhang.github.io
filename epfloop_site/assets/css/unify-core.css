@@ -1,0 +1,87 @@
+/*------------------------------------
+  Default Styles
+------------------------------------*/
+html {
+  font-size: 14px;
+  overflow-x: hidden;
+}
+
+body {
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #7d7d8f;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga", "kern";
+  text-rendering: optimizelegibility;
+  background-color: #fff;
+}
+
+a {
+  color: #c94645;
+  outline: none;
+}
+
+a:focus,
+a:hover {
+  color: #bd3837;
+}
+
+.nav-link {
+  color: #7d7d8f;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #7d7d8f;
+}
+
+figure {
+  margin-bottom: 0;
+}
+
+/*------------------------------------
+  Headings
+------------------------------------*/
+.h1, .h2, .h3, .h4, .h5, .h6, .h7,
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.4;
+}
+
+.h7 {
+  font-size: .75rem;
+}
+
+/*------------------------------------
+  Displays
+------------------------------------*/
+.display-5 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+/*------------------------------------
+  Highlight Color
+------------------------------------*/
+::-moz-selection {
+  color: #fff;
+  background-color: #c94645;
+}
+
+::selection {
+  color: #fff;
+  background-color: #c94645;
+}
+
+.g-bg-primary ::-moz-selection {
+  color: #c94645;
+  background-color: #fff;
+}
+
+.g-bg-primary ::selection {
+  color: #c94645;
+  background-color: #fff;
+}
