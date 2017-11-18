@@ -1,842 +1,1150 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Title -->
-    <title>EPFLoop</title>
 
-    <!-- Required Meta Tags Always Come First -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+<head>
+  <!-- Title -->
+  <title>EPFLoop</title>
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico">
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C500%2C600%2C700%2C800%7CPlayfair+Display%7CRoboto%7CRaleway%7CSpectral%7CRubik">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico">
 
-    <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C500%2C600%2C700%2C800%7CPlayfair+Display%7CRoboto%7CRaleway%7CSpectral%7CRubik">
 
-    <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/vendor/icon-line/css/simple-line-icons.css">
-    <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
-    <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
-    <link rel="stylesheet" href="assets/vendor/animate.css">
-    <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
 
-    <!-- CSS Template -->
-    <link rel="stylesheet" href="arch_assets/css/styles.op-architecture.css">
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/vendor/icon-line/css/simple-line-icons.css">
+  <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
+  <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
+  <link rel="stylesheet" href="assets/vendor/animate.css">
+  <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
 
-	<!-- CSS Unify -->
-	<link rel="stylesheet" href="assets/css/unify-core.css">
-	<link rel="stylesheet" href="assets/css/unify-components.css">
-	<link rel="stylesheet" href="assets/css/unify-globals.css">
+  <!-- CSS Template -->
+  <link rel="stylesheet" href="arch_assets/css/styles.op-architecture.css">
 
-    <!-- CSS Customization -->
-    <link rel="stylesheet" href="assets/css/custom.css">
-  </head>
+  <!-- CSS Unify -->
+  <link rel="stylesheet" href="assets/css/unify-core.css">
+  <link rel="stylesheet" href="assets/css/unify-components.css">
+  <link rel="stylesheet" href="assets/css/unify-globals.css">
 
-  <body>
-    <main>
-      <!-- Header v1 -->
-      <header id="js-header" class="u-header u-header--sticky-top u-header--change-appearance"
-              data-header-fix-moment="100">
-        <div class="dark-theme u-header__section g-bg-black-opacity-0_4 g-transition-0_3 g-py-0 g-py-0--md"
-             data-header-fix-moment-exclude="dark-theme g-bg-black-opacity-0_4 g-py-0--md"
-             data-header-fix-moment-classes="light-theme u-theme-shadow-v1 g-bg-white g-py-0--md">
-          <nav class="navbar navbar-expand-lg p-0 g-px-15">
-            <div class="container g-pos-rel">
-              <a href="/" class="g-hidden-lg-up navbar-brand mr-0">
-                <img class="d-block g-width-140 g-width-160--md" src="arch_assets/img/eloop.png" alt="Image Description"
-                     data-header-fix-moment-exclude="d-block"
-                     data-header-fix-moment-classes="d-none">
+  <!-- CSS Customization -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
 
-                <img class="d-none g-width-140 g-width-160--md" src="arch_assets/img/eloop.png" alt="Image Description"
-                     data-header-fix-moment-exclude="d-none"
-                     data-header-fix-moment-classes="d-block">
-              </a>
+<body>
+  <main>
+    <!-- Header v1 -->
+    <header id="js-header" class="u-header u-header--sticky-top u-header--change-appearance" data-header-fix-moment="100">
+      <div class="dark-theme u-header__section g-bg-black-opacity-0_4 g-transition-0_3 g-py-0 g-py-0--md" data-header-fix-moment-exclude="dark-theme g-bg-black-opacity-0_4 g-py-0--md"
+        data-header-fix-moment-classes="light-theme u-theme-shadow-v1 g-bg-white g-py-0--md">
+        <nav class="navbar navbar-expand-lg p-0 g-px-15">
+          <div class="container g-pos-rel">
+            <a href="/" class="g-hidden-lg-up navbar-brand mr-0">
+              <img class="d-block g-width-140 g-width-160--md" src="arch_assets/img/eloop.png" alt="Image Description" data-header-fix-moment-exclude="d-block"
+                data-header-fix-moment-classes="d-none">
 
-              <!-- Navigation -->
-              <div class="collapse navbar-collapse align-items-center flex-sm-row" id="navBar">
-                <ul class="js-scroll-nav navbar-nav align-items-lg-center text-uppercase g-font-weight-700 g-font-size-11 g-pt-20 g-pt-0--lg mx-auto"
-                    data-splitted-breakpoint="992">
-                  <li class="nav-item g-mr-30--lg g-mb-7 g-mb-0--lg active">
-                    <a href="#home" class="nav-link p-0">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item g-mx-30--lg g-mb-7 g-mb-0--lg">
-                    <a href="#about" class="nav-link p-0">About</a>
-                  </li>
-                  <li class="nav-item g-mx-30--lg g-mb-7 g-mb-0--lg">
-                    <a href="#projects" class="nav-link p-0">Technologies</a>
-                  </li>
+              <img class="d-none g-width-140 g-width-160--md" src="arch_assets/img/eloop.png" alt="Image Description" data-header-fix-moment-exclude="d-none"
+                data-header-fix-moment-classes="d-block">
+            </a>
 
-                  <!-- Logo -->
-                  <li class="g-hidden-lg-down nav-logo-item g-mx-15--lg">
-                    <a href="#team" class="navbar-brand mr-0">
-                      <img class="d-block g-width-140 g-width-160--md" src="arch_assets/img/eloop_alb_z.png" alt="Image Description"
-                           data-header-fix-moment-exclude="d-block"
-                           data-header-fix-moment-classes="d-none">
-
-                      <img class="d-none g-width-140 g-width-160--md" src="arch_assets/img/eloop.png" alt="Image Description"
-                           data-header-fix-moment-exclude="d-none"
-                           data-header-fix-moment-classes="d-block">
-                    </a>
-                  </li>
-                  <!-- End Logo -->
-
-                  <li class="nav-item g-mx-30--lg g-mb-7 g-mb-0--lg">
-                    <a href="#team" class="nav-link p-0">Team</a>
-                  </li>
-                  <li class="nav-item g-mx-30--lg g-mb-7 g-mb-0--lg">
-                    <a href="#sponsors" class="nav-link p-0">Sponsors</a>
-                  </li>
-                  <li class="nav-item g-ml-30--lg">
-                    <a href="#contact" class="nav-link p-0">Contact</a>
-                  </li>
-                </ul>
-              </div>
-              <!-- End Navigation -->
-
-              <!-- Responsive Toggle Button -->
-              <button class="navbar-toggler btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-15 g-right-0" type="button"
-                      aria-label="Toggle navigation"
-                      aria-expanded="false"
-                      aria-controls="navBar"
-                      data-toggle="collapse"
-                      data-target="#navBar">
-                <span class="hamburger hamburger--slider">
-                  <span class="hamburger-box">
-                    <span class="hamburger-inner"></span>
-                  </span>
-                </span>
-              </button>
-              <!-- End Responsive Toggle Button -->
-            </div>
-          </nav>
-        </div>
-      </header>
-      <!-- End Header v1 -->
-
-      <!-- Section Content -->
-      <section id="home" class="u-bg-overlay g-pos-rel g-theme-bg-blue-dark-v1-opacity-0_8--after">
-        <div class="js-carousel"
-             data-autoplay="true"
-             data-infinite="true"
-             data-fade="true"
-             data-speed="5000">
-          <div class="js-slide g-bg-img-hero g-height-100vh" style="background-image: url(arch_assets/img-temp/1600x1060/img1.jpg);"></div>
-
-          <div class="js-slide g-bg-img-hero g-height-100vh" style="background-image: url(arch_assets/img-temp/1600x1060/img2.jpg);"></div>
-        </div>
-
-        <div class="u-bg-overlay__inner g-absolute-centered w-100">
-          <div class="container text-center g-max-width-750">
-            <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary">
-              <h3 class="h3 g-letter-spacing-7 g-font-size-12 g-color-white g-mb-25">Creating the next-generation transportation</h3>
-              <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-3 g-font-weight-700 g-font-size-76 g-color-white mb-0">EPFLoop</h2>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Section Content -->
-
-      <section id="about" class="g-theme-bg-blue-dark-v1 g-py-100">
-        <div class="container text-center g-max-width-750 g-mb-70">
-          <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary g-mb-30">
-            <h3 class="h3 g-letter-spacing-7 g-font-size-12 g-color-primary g-mb-25">Team vision</h3>
-            <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-weight-700 g-font-size-30 g-font-size-40--md g-color-white mb-0">What we believe</h2>
-          </div>
-
-          <p class="g-color-white-opacity-0_5 mb-0">Pushing forward the advancement the technologies and changing the world should be one of the most important goals for us to strive for.
-            École Polytechnique Fédérale de Lausanne (EPFL) thus gathered a team of passionate professors and students of diverse backgrounds to create a Hyperloop pod in response to the initiatives brought by the Hyperloop Competition. </p> </div>
-      </section>
-
-      <!-- Section Content -->
-      <section class="g-pt-100 g-pb-100--md">
-        <div class="container text-center g-max-width-750 g-mb-70">
-          <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary">
-            <h3 class="h3 g-letter-spacing-7 g-font-size-12 g-color-primary g-mb-25"></h3>
-            <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-weight-700 g-font-size-30 g-font-size-40--md mb-0">Hyperloop Competition</h2>
-          </div>
-        </div>
-
-        <div class="container px-0">
-          <!-- Row -->
-          <div class="row no-gutters">
-            <div class="col-md-6 col-lg-3">
-              <div class="g-bg-img-hero" style="background-image: url(arch_assets/img-temp/1024x683/img1.png);">
-                <div class="g-theme-bg-blue-dark-v3 g-opacity-1 g-opacity-0_7--hover g-py-50 g-px-15 g-pa-100-30--sm g-transition-0_2 g-transition--ease-in">
-                  <span class="d-block g-line-height-1 g-font-size-30 g-color-primary g-mb-20">
-                    <i class="fa fa-subway"></i>
-                  </span>
-                  <h3 class="text-uppercase g-line-height-1_2 g-font-weight-700 g-color-white g-mb-25">Swissmetro
-                    <br> concept </h3>
-                  <p class="g-font-size-13 g-color-white-opacity-0_5 g-mb-30">At EPFL, professor Marcel Jufer first proposed a futuristic transport metro network that operates at a high speed around 500 km/hour inside low-pressure tunnels. <br><br> </p>
-                  <a href="https://en.wikipedia.org/wiki/Swissmetro" class="text-uppercase g-font-weight-700 g-font-size-11 g-text-underline--none--hover">Read More</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3">
-                <div class="g-bg-img-hero" style="background-image: url(arch_assets/img-temp/1024x683/img2.jpg);">
-                  <div class="g-theme-bg-blue-dark-v4 g-opacity-1 g-opacity-0_7--hover g-py-50 g-px-15 g-pa-100-30--sm g-transition-0_2 g-transition--ease-in">
-                    <span class="d-block g-line-height-1 g-font-size-30 g-color-primary g-mb-20">
-                      <i class="fa fa-book"></i>
-                    </span>
-                    <h3 class="text-uppercase g-line-height-1_2 g-font-weight-700 g-color-white g-mb-25">Hyperloop
-                      <br> Concept </h3>
-                    <p class="g-font-size-13 g-color-white-opacity-0_5 g-mb-30">In 2013, Elon Musk published the Hyperloop Alpha concept that conceived a system that would transport the passengers with a top speed of 1200 km/hour. <br> <br> </p>
-                    <a href="http://www.spacex.com/hyperloop" class="text-uppercase g-font-weight-700 g-font-size-11 g-text-underline--none--hover">Read More</a>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3">
-              <div class="g-bg-img-hero" style="background-image: url(arch_assets/img-temp/1024x683/img3.jpg);">
-                <div class="g-theme-bg-blue-dark-v4 g-opacity-1 g-opacity-0_7--hover g-py-50 g-px-15 g-pa-100-30--sm g-transition-0_2 g-transition--ease-in">
-                  <span class="d-block g-line-height-1 g-font-size-30 g-color-primary g-mb-20">
-                    <i class="fa fa-bolt"></i>
-                  </span>
-                  <h3 class="text-uppercase g-line-height-1_2 g-font-weight-700 g-color-white g-mb-25">Competition
-                    <br> I & II</h3>
-                  <p class="g-font-size-13 g-color-white-opacity-0_5 g-mb-30">Following the spirit for the hyleroop alpha diesgn, SpaceX organized the first two competition has been healed in January and August 2017 that challenged the universtiy teams to build and test the pods.</p>
-                  <a href="http://www.spacex.com/hyperloop" class="text-uppercase g-font-weight-700 g-font-size-11 g-text-underline--none--hover">Read More</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3">
-              <div class="g-bg-img-hero" style="background-image: url(arch_assets/img-temp/1024x683/img4.jpg);">
-                <div class="g-theme-bg-blue-dark-v3 g-opacity-1 g-opacity-0_7--hover g-py-50 g-px-15 g-pa-100-30--sm g-transition-0_2 g-transition--ease-in">
-                  <span class="d-block g-line-height-1 g-font-size-30 g-color-primary g-mb-20">
-                    <i class="fa fa-globe"></i>
-                  </span>
-                  <h3 class="text-uppercase g-line-height-1_2 g-font-weight-700 g-color-white g-mb-25">Competition
-                    <br> III </h3>
-                  <p class="g-font-size-13 g-color-white-opacity-0_5 g-mb-30">This year EPFL officially enters the hyerloop compeition for the first time, aiming to help promoting the development of hyperloop and creating the next-generation transportation system.</p>
-                  <a href="#" class="text-uppercase g-font-weight-700 g-font-size-11 g-text-underline--none--hover">Read More</a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <!-- End Row -->
-        </div>
-      </section>
-      <!-- End Section Content -->
-
-      <!-- Section Content -->
-      <section id="projects" class="g-pt-100 g-pb-100--md">
-        <div class="container text-center g-max-width-750 g-mb-70">
-          <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary">
-            <h3 class="h3 g-letter-spacing-7 g-font-size-12 g-color-primary g-mb-25">Technologies</h3>
-            <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-weight-700 g-font-size-30 g-font-size-40--md mb-0">What we do</h2>
-          </div>
-          <p class="g-mb-30"> We are constantly innovating and advancing the boundaries of engineering. Detailed design will be released after the competition ends. 
-          </p>
-        </div>
-
-        <div class="container-fluid px-0">
-          <div class="row no-gutters">
-            <div class="col-md-6 col-lg-4 g-parent g-theme-bg-blue-dark-v1--hover g-transition-0_2 g-transition--ease-in">
-              <img class="img-fluid w-100" src="arch_assets/img-temp/1024x683/img5.jpg" alt="Image Description">
-
-              <div class="text-center text-uppercase g-pa-30">
-                <h4 class="g-letter-spacing-7 g-font-size-11 g-color-primary--parent-hover g-mb-10 g-transition-0_2 g-transition--ease-in">State-of-art modeling and engineering</h4>
-                <h3 class="h6 g-letter-spacing-2 g-font-weight-700 g-color-white--parent-hover mb-0 g-transition-0_2 g-transition--ease-in">Accurate construction of the pod with sound theoretical grounds</h3>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4 g-parent g-theme-bg-blue-dark-v1--hover g-transition-0_2 g-transition--ease-in">
-              <img class="img-fluid w-100" src="arch_assets/img-temp/1024x683/img6.jpg" alt="Image Description">
-
-              <div class="text-center text-uppercase g-pa-30">
-                <h4 class="g-letter-spacing-7 g-font-size-11 g-color-primary--parent-hover g-mb-10 g-transition-0_2 g-transition--ease-in">Rapid development cycle</h4>
-                <h3 class="h6 g-letter-spacing-2 g-font-weight-700 g-color-white--parent-hover mb-0 g-transition-0_2 g-transition--ease-in">Fast exeution that accelrates project maturtity</h3>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4 g-parent g-theme-bg-blue-dark-v1--hover g-transition-0_2 g-transition--ease-in">
-              <img class="img-fluid w-100" src="arch_assets/img-temp/1024x683/img7.jpg" alt="Image Description">
-
-              <div class="text-center text-uppercase g-pa-30">
-                <h4 class="g-letter-spacing-7 g-font-size-11 g-color-primary--parent-hover g-mb-10 g-transition-0_2 g-transition--ease-in">Integrated engineering systems</h4>
-                <h3 class="h6 g-letter-spacing-2 g-font-weight-700 g-color-white--parent-hover mb-0 g-transition-0_2 g-transition--ease-in">Well-tuned engineering work systems put the best on the table</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </section>
-      <!-- End Section Content -->
-	  
-	  <!-- Section Content -->
-       <section id="team" class="g-theme-bg-blue-dark-v1 g-py-80">
-        <div class="container text-center">
-          <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary g-mb-30">
-            <h3 class="h3 g-letter-spacing-7 g-font-size-12 g-color-primary g-mb-25">Diverse talents</h3>
-            <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-weight-700 g-font-size-30 g-font-size-30 g-font-size-40--md--md g-color-white mb-0">The team</h2>
-          </div>
-
-          <div class="row">
-            <div class="col-md-4 col-lg-3">
-              <!-- Nav tabs -->
-              <ul class="nav flex-column text-uppercase u-nav-v3-1 g-font-weight-700 g-font-size-12" role="tablist"
-                  data-target="servicesTabs"
-                  data-tabs-mobile-type="accordion"
-                  data-btn-classes="btn btn-lg btn-block u-btn-darkgray u-btn-inset g-mb-20">
-                <li class="nav-item">
-                  <a class="nav-link g-py-17 px-0 active" href="#servicesTabsBody1" role="tab"
-                     data-toggle="tab">
-                    <i class="fa fa-arrow-right g-color-primary g-mr-7"></i>
-                    Advisors
+            <!-- Navigation -->
+            <div class="collapse navbar-collapse align-items-center flex-sm-row" id="navBar">
+              <ul class="js-scroll-nav navbar-nav align-items-lg-center text-uppercase g-font-weight-700 g-font-size-12 g-pt-20 g-pt-0--lg mx-auto"
+                data-splitted-breakpoint="992">
+                <li class="nav-item g-mr-30--lg g-mb-7 g-mb-0--lg active">
+                  <a href="#home" class="nav-link p-0">Home
+                    <span class="sr-only">(current)</span>
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link g-py-17 px-0" href="#servicesTabsBody2" role="tab"
-                     data-toggle="tab">
-                    <i class="fa fa-arrow-right g-color-primary g-mr-7"></i>
-                    Team Leads
+                <li class="nav-item g-mx-30--lg g-mb-7 g-mb-0--lg">
+                  <a href="#about" class="nav-link p-0">About</a>
+                </li>
+                <li class="nav-item g-mx-30--lg g-mb-7 g-mb-0--lg">
+                  <a href="#projects" class="nav-link p-0">Technologies</a>
+                </li>
+
+                <!-- Logo -->
+                <li class="g-hidden-lg-down nav-logo-item g-mx-15--lg">
+                  <a href="#team" class="navbar-brand mr-0">
+                    <img class="d-block g-width-140 g-width-160--md" src="arch_assets/img/eloop_alb_z.png" alt="Image Description" data-header-fix-moment-exclude="d-block"
+                      data-header-fix-moment-classes="d-none">
+
+                    <img class="d-none g-width-140 g-width-160--md" src="arch_assets/img/eloop.png" alt="Image Description" data-header-fix-moment-exclude="d-none"
+                      data-header-fix-moment-classes="d-block">
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link g-py-17 px-0" href="#servicesTabsBody3" role="tab"
-                     data-toggle="tab">
-                    <i class="fa fa-arrow-right g-color-primary g-mr-7"></i>
-                    Business
-                  </a>
+                <!-- End Logo -->
+
+                <li class="nav-item g-mx-30--lg g-mb-7 g-mb-0--lg">
+                  <a href="#team" class="nav-link p-0">Team</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link g-py-17 px-0" href="#servicesTabsBody4" role="tab"
-                     data-toggle="tab">
-                    <i class="fa fa-arrow-right g-color-primary g-mr-7"></i>
-                    Placeholder
-                  </a>
+                <li class="nav-item g-mx-30--lg g-mb-7 g-mb-0--lg">
+                  <a href="#sponsors" class="nav-link p-0">Sponsors</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link g-py-17 px-0" href="#servicesTabsBody5" role="tab"
-                     data-toggle="tab">
-                    <i class="fa fa-arrow-right g-color-primary g-mr-7"></i>
-                    Placeholder
-                  </a>
+                <li class="nav-item g-ml-30--lg">
+                  <a href="#contact" class="nav-link p-0">Contact</a>
                 </li>
               </ul>
-              <!-- End Nav tabs -->
             </div>
+            <!-- End Navigation -->
 
-            <div class="col-md-8 col-lg-9">
-              <!-- Tab panes -->
-              <div id="servicesTabs" class="tab-content">
-                <div class="tab-pane fade g-pb-20 g-pb-0--md show active" id="servicesTabsBody1" role="tabpanel">
-                 
-					<div class="d-flex justify-content-center row g-mx-minus-25 g-mb-40">
-		 
-					  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
-						<!-- Team Member-->
-						<div class="text-center">
-						  <img class="u-shadow-v29 g-width-120 g-height-120 rounded-circle mb-5" src="arch_assets/img/team_photos/marcel_jufer.jpg" alt="Image Description">
-						  <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Professor Marcel Jufer</h4>
-						  <hr class="g-brd-gray-light-v4 g-my-15">
-						  <span class="d-block g-color-primary">Honorary Professor STI</span>
-						  <a class="u-link-v5 g-color-text g-color-main--hover g-font-size-13" href="mailto:marcel.jufer@epfl.ch">marcel.jufer@epfl.ch</a>
-						</div>
-						<!-- End Team Member-->
-					  </div>
-
-					  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
-						<!-- Team Member-->
-						<div class="text-center">
-						  <img class="u-shadow-v29 g-width-120 g-height-120 rounded-circle mb-5" src="arch_assets/img/team_photos/mario_paolone_1.jpg" alt="Image Description">
-						  <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Professor Mario Paolone</h4>
-						  <hr class="g-brd-gray-light-v4 g-my-15">
-						  <span class="d-block g-color-primary">Head of Distributed Electrical Systems Laboratory at EPFL</span>
-						  <a class="u-link-v5 g-color-text g-color-main--hover g-font-size-13" href="mailto:mario.paolone@epfl.ch">mario.paolone@epfl.ch</a>
-						</div>
-						<!-- End Team Member-->
-					  </div>
-
-					  
-					  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
-						<!-- Team Member-->
-						<div class="text-center">
-						  <img class="u-shadow-v29 g-width-120 g-height-120 rounded-circle mb-5" src="arch_assets/img/team_photos/drazen_dujic.jpg" alt="Image Description">
-						  <h4 class="h5 g-font-weight-600 mb-1 g-color-primary" >Professor Drazen Dujic</h4>
-						  <hr class="g-brd-gray-light-v4 g-my-15">
-						  <span class="d-block g-color-primary">Tenure Track Assistant Professor and Head of the Power Electronics Laboratoryat EPFL</span>
-						  <a class="u-link-v5 g-color-text g-color-main--hover g-font-size-13" href="mailto:drazen.dujic@epfl.ch">drazen.dujic@epfl.ch</a>
-						</div>
-						<!-- End Team Member -->
-					  </div>
-					  
-					  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
-						<!-- Team Member-->
-						<div class="text-center">
-						  <img class="u-shadow-v29 g-width-120 g-height-120 rounded-circle mb-5" src="arch_assets/img/team_photos/andreas_burg.jpg" alt="Image Description">
-						  <h4 class="h5 g-font-weight-600 mb-1 g-color-primary" >Professor Andreas Peter Burg</h4>
-						  <hr class="g-brd-gray-light-v4 g-my-15">
-						  <span class="d-block g-color-primary">Tenure Track Assistant Professor at EPFL</span>
-						  <a class="u-link-v5 g-color-text g-color-main--hover g-font-size-13" href="mailto:andreas.burg@epfl.ch">andreas.burg@epfl.ch</a>
-						</div>
-						<!-- End Team Member -->
-					  </div>
-					  
-					  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
-						<!-- Team Member-->
-						<div class="text-center">
-						  <img class="u-shadow-v29 g-width-120 g-height-120 rounded-circle mb-5" src="arch_assets/img/team_photos/andre_hodder_1.png" alt="Image Description">
-						  <h4 class="h5 g-font-weight-600 mb-1 g-color-primary" >André Hodder PhD</h4>
-						  <hr class="g-brd-gray-light-v4 g-my-15">
-						  <span class="d-block g-color-primary">Electrical engineering scientist at EPFL</span>
-						  <a class="u-link-v5 g-color-text g-color-main--hover g-font-size-13" href="mailto:andre.hodder@epfl.ch">andre.hodder@epfl.ch</a>
-						</div>
-						<!-- End Team Member -->
-					  </div>
-					  
-					  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
-						<!-- Team Member-->
-						<div class="text-center">
-						  <img class="u-shadow-v29 g-width-120 g-height-120 rounded-circle mb-5" src="arch_assets/img/team_photos/matteo_galli.jpg" alt="Image Description">
-						  <h4 class="h5 g-font-weight-600 mb-1 g-color-primary" >Matteo Galli PhD</h4>
-						  <hr class="g-brd-gray-light-v4 g-my-15">
-						  <span class="d-block g-color-primary">Deputy Director of the Institute and Section of Mechanical Engineering at EPFL</span>
-						  <a class="u-link-v5 g-color-text g-color-main--hover g-font-size-13" href="mailto:matteo.galli@epfl.ch">matteo.galli@epfl.ch</a>
-						</div>
-						<!-- End Team Member -->
-					  </div>
-                  </div>
-            
-				</div>
-
-                <div class="tab-pane fade g-pb-20 g-pb-0--md" id="servicesTabsBody2" role="tabpanel">
-                  <div class="d-flex justify-content-center row g-mx-minus-25 g-mb-40">
-		 
-					  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
-						<!-- Team Member-->
-						<div class="text-center">
-						  <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Denis Tudor</h4>
-						  <hr class="g-brd-gray-light-v4 g-my-15">
-						  <span class="d-block g-color-primary">Team Leader</span>
-						</div>
-						<!-- End Team Member-->
-					  </div>
-
-					  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
-						<!-- Team Member-->
-						<div class="text-center">
-						  <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Axel Uran</h4>
-						  <hr class="g-brd-gray-light-v4 g-my-15">
-						  <span class="d-block g-color-primary">Business Lead</span>
-						</div>
-						<!-- End Team Member-->
-					  </div>
-
-					 <div class="col-6 col-lg-3 g-px-25 g-mb-50">
-						<!-- Team Member-->
-						<div class="text-center">
-						  <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Hang Yuan</h4>
-						  <hr class="g-brd-gray-light-v4 g-my-15">
-						  <span class="d-block g-color-primary">PR and Web Lead</span>
-						</div>
-						<!-- End Team Member-->
-					  </div>
-					  
-					  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
-						<!-- Team Member-->
-						<div class="text-center">
-						  <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Théophane Dimier</h4>
-						  <hr class="g-brd-gray-light-v4 g-my-15">
-						  <span class="d-block g-color-primary">elec-energy-drive Lead</span>
-						</div>
-						<!-- End Team Member-->
-					  </div>
-					  
-					  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
-						<!-- Team Member-->
-						<div class="text-center">
-						  <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Jelena Malic</h4>
-						  <hr class="g-brd-gray-light-v4 g-my-15">
-						  <span class="d-block g-color-primary">Media and Communication Lead</span>
-						</div>
-						<!-- End Team Member-->
-					  </div>
-					  
-					  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
-						<!-- Team Member-->
-						<div class="text-center">
-						  <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Antoine Coppens</h4>
-						  <hr class="g-brd-gray-light-v4 g-my-15">
-						  <span class="d-block g-color-primary">elec-energy Lead</span>
-						</div>
-						<!-- End Team Member-->
-					  </div>
-					  
-					  
-                  </div>
-                </div>
-
-                <div class="tab-pane fade g-pb-20 g-pb-0--md" id="servicesTabsBody3" role="tabpanel">
-                  <div class="row">
-                    <div class="col-md-6 col-lg-4 g-mb-20 g-mb-0--lg">
-                      <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img7.jpg" alt="Image description">
-
-                      <h3 class="text-uppercase g-font-weight-700 g-font-size-default g-color-black g-mb-10">
-                        <a class="g-color-black" href="#">Saepe eveniet ut</a>
-                      </h3>
-                      <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4 g-mb-20 g-mb-0--lg">
-                      <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img8.jpg" alt="Image description">
-
-                      <h3 class="text-uppercase g-font-weight-700 g-font-size-default g-color-black g-mb-10">
-                        <a class="g-color-black" href="#">Voluptate velit esse</a>
-                      </h3>
-                      <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4">
-                      <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img9.jpg" alt="Image description">
-
-                      <h3 class="text-uppercase g-font-weight-700 g-font-size-default g-color-black g-mb-10">
-                        <a class="g-color-black" href="#">Temporibus autem quibusdam</a>
-                      </h3>
-                      <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="tab-pane fade g-pb-20 g-pb-0--md" id="servicesTabsBody4" role="tabpanel">
-                  <div class="row">
-                    <div class="col-md-6 col-lg-4 g-mb-20 g-mb-0--lg">
-                      <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img10.jpg" alt="Image description">
-
-                      <h3 class="text-uppercase g-font-weight-700 g-font-size-default g-color-black g-mb-10">
-                        <a class="g-color-black" href="#">Saepe eveniet ut</a>
-                      </h3>
-                      <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4 g-mb-20 g-mb-0--lg">
-                      <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img11.jpg" alt="Image description">
-
-                      <h3 class="text-uppercase g-font-weight-700 g-font-size-default g-color-black g-mb-10">
-                        <a class="g-color-black" href="#">Voluptate velit esse</a>
-                      </h3>
-                      <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4">
-                      <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img12.jpg" alt="Image description">
-
-                      <h3 class="text-uppercase g-font-weight-700 g-font-size-default g-color-black g-mb-10">
-                        <a class="g-color-black" href="#">Temporibus autem quibusdam</a>
-                      </h3>
-                      <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="tab-pane fade g-pb-20 g-pb-0--md" id="servicesTabsBody5" role="tabpanel">
-                  <div class="row">
-                    <div class="col-md-6 col-lg-4 g-mb-20 g-mb-0--lg">
-                      <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img13.jpg" alt="Image description">
-
-                      <h3 class="text-uppercase g-font-weight-700 g-font-size-default g-color-black g-mb-10">
-                        <a class="g-color-black" href="#">Saepe eveniet ut</a>
-                      </h3>
-                      <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4 g-mb-20 g-mb-0--lg">
-                      <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img14.jpg" alt="Image description">
-
-                      <h3 class="text-uppercase g-font-weight-700 g-font-size-default g-color-black g-mb-10">
-                        <a class="g-color-black" href="#">Voluptate velit esse</a>
-                      </h3>
-                      <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4">
-                      <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img15.jpg" alt="Image description">
-
-                      <h3 class="text-uppercase g-font-weight-700 g-font-size-default g-color-black g-mb-10">
-                        <a class="g-color-black" href="#">Temporibus autem quibusdam</a>
-                      </h3>
-                      <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Tab panes -->
-            </div>
+            <!-- Responsive Toggle Button -->
+            <button class="navbar-toggler btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-15 g-right-0" type="button" aria-label="Toggle navigation"
+              aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+              <span class="hamburger hamburger--slider">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+              </span>
+            </button>
+            <!-- End Responsive Toggle Button -->
           </div>
-      </section>
-      <!-- End Section Content -->
+        </nav>
+      </div>
+    </header>
+    <!-- End Header v1 -->
 
-      <!-- Section Content -->
-      <section id="sponsors" class="g-py-100">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 text-center g-mb-30 g-mb-0--lg">
-              <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary g-mb-30">
-                <h3 class="h3 g-letter-spacing-7 g-font-size-12 g-color-primary g-mb-25">cooperation</h3>
-                <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-weight-700 g-font-size-30 g-font-size-30 g-font-size-40--md--md mb-0">Our sponsors</h2>
-              </div>
+    <!-- Section Content -->
+    <section id="home" class="u-bg-overlay g-pos-rel g-theme-bg-blue-dark-v1-opacity-0_8--after">
+      <div class="js-carousel" data-autoplay="true" data-infinite="true" data-fade="true" data-speed="5000">
+        <div class="js-slide g-bg-img-hero g-height-100vh" style="background-image: url(arch_assets/img-temp/1600x1060/img1.jpg);"></div>
 
-              <p class="g-mb-30">EPFLoop cannot achieve its ambitious goals without the generous support from our partners. Don't hesitate to contact
-                us if you would like to collabrate together.
-              </p>
-            </div>
+        <div class="js-slide g-bg-img-hero g-height-100vh" style="background-image: url(arch_assets/img-temp/1600x1060/img2.jpg);"></div>
+      </div>
 
-            <div class="col-lg-9 g-mb-40 g-mb-0--lg">
-              <div class="g-overflow-hidden">
-                <div class="d-flex justify-content-center row text-center no-gutters g-ml-minus-1 g-mb-minus-1">
-                  <div class="col-md-3">
-                    <div class="g-brd-left g-brd-bottom g-theme-brd-blue-dark-v5 g-py-60">
-                      <a href = "https://www.epfl.ch/" target="_blank"><img class="img-fluid g-opacity-1 g-opacity-0_6--hover g-transition-0_2" src="arch_assets/img/sponsors/epfl.png" alt="EPFL"></a>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3">
-                    <div class="g-brd-left g-brd-bottom g-theme-brd-blue-dark-v5 g-py-60">
-                      <a href = "http://www.ni.com/en-us.html" target="_blank"><img class="img-fluid g-opacity-1 g-opacity-0_6--hover g-transition-0_2" src="arch_assets/img/sponsors/national_instruments.png" alt="Image Description"></a>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3">
-                    <div class="g-brd-left g-brd-bottom g-theme-brd-blue-dark-v5 g-py-60">
-                      <a href = "http://www.leclanche.com/" target="_blank"><img class="img-fluid g-opacity-1 g-opacity-0_6--hover g-transition-0_2" src="arch_assets/img/sponsors/leclanche.png" alt="Image Description"></a>
-                    </div>
-                  </div>                  
-
-                  <div class="col-md-3">
-                    <div class="g-brd-left g-brd-bottom g-theme-brd-blue-dark-v5 g-py-60">
-                      <a href = "http://www.brusa.biz/en.html" target="_blank"><img class="img-fluid g-opacity-1 g-opacity-0_6--hover g-transition-0_2" src="arch_assets/img/sponsors/brusa.png" alt="Image Description"></a>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3">
-                    <div class="g-brd-left g-brd-bottom g-theme-brd-blue-dark-v5 g-py-60">
-                      <a href = "http://kokam.com/" target="_blank"><img class="img-fluid g-opacity-1 g-opacity-0_6--hover g-transition-0_2" src="arch_assets/img/sponsors/kokam.png" alt="Image Description"></a>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
+      <div class="u-bg-overlay__inner g-absolute-centered w-100">
+        <div class="container text-center g-max-width-750">
+          <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary">
+            <h3 class="h3 g-letter-spacing-7 g-font-size-12 g-color-white g-mb-25">Creating the next-generation transportation</h3>
+            <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-3 g-font-weight-700 g-font-size-76 g-color-white mb-0">EPFLoop</h2>
           </div>
         </div>
-      </section>
-      <!-- End Section Content -->
-	  
-	  <!-- Quote -->
-      <div class="dzsparallaxer auto-init height-is-based-on-content use-loading" data-options='{direction: "reverse", settings_mode_oneelement_max_offset: "150"}'>
-        <div class="divimage dzsparallaxer--target w-100 g-bg-size-cover g-bg-img-hero g-bg-cover g-bg-black-opacity-0_6--after" style="height: 130%; background-image: url(arch_assets/img/team_photos/mario_paolone.jpg);"></div>
+      </div>
+    </section>
+    <!-- End Section Content -->
 
-        <div class="text-center g-pos-rel g-z-index-1 g-theme-bg-blue-dark-v1 g-py-100">
-          <blockquote class="g-color-white g-font-family-merriweather g-font-size-30 g-font-size-40--md g-line-height-1_4 g-mb-50">
-            <span class="g-color-primary g-font-family-ptsans g-font-size-90 g-line-height-0_7 g-pos-rel g-top-30">&#8220;</span>
-            It is possible for ordinary people to choose to be extraordinary.
-            <span class="g-color-primary g-font-family-ptsans g-font-size-90 g-line-height-0_7 g-pos-rel g-top-30">&#8221;</span>
-          </blockquote>
-          <h4 class="g-color-white g-font-size-15 text-uppercase mb-1"><span class="d-inline-block align-middle g-width-40 g-height-2 g-bg-primary mr-3"></span> Elon Musk</h4>
+    <section id="about" class="g-theme-bg-blue-dark-v1 g-py-100">
+      <div class="container text-center g-max-width-750 g-mb-70">
+        <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary g-mb-30">
+          <h3 class="h3 g-letter-spacing-7 g-font-size-12 g-color-primary g-mb-25">Team vision</h3>
+          <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-weight-700 g-font-size-30 g-font-size-40--md g-color-white mb-0">What we believe</h2>
         </div>
-		</div>
-      
-      <!-- End Quote -->
+
+        <p class="g-color-white-opacity-0_5 mb-0">Pushing forward the advancement the technologies and changing the world should be one of the most important goals
+          for us to strive for. École Polytechnique Fédérale de Lausanne (EPFL) thus gathered a team of passionate professors
+          and students of diverse backgrounds to create a Hyperloop pod in response to the initiatives brought by the Hyperloop
+          Competition. </p>
+      </div>
+    </section>
+
+    <!-- Section Content -->
+    <section class="g-pt-100 g-pb-100--md">
+      <div class="container text-center g-max-width-750 g-mb-70">
+        <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary">
+          <h3 class="h3 g-letter-spacing-7 g-font-size-12 g-color-primary g-mb-25"></h3>
+          <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-weight-700 g-font-size-30 g-font-size-40--md mb-0">Hyperloop Competition</h2>
+        </div>
+      </div>
+
+      <div class="container px-0">
+        <!-- Row -->
+        <div class="row no-gutters">
+          <div class="col-md-6 col-lg-3">
+            <div class="g-bg-img-hero" style="background-image: url(arch_assets/img-temp/1024x683/img1.png);">
+              <div class="g-theme-bg-blue-dark-v3 g-opacity-1 g-opacity-0_7--hover g-py-50 g-px-15 g-pa-100-30--sm g-transition-0_2 g-transition--ease-in">
+                <span class="d-block g-line-height-1 g-font-size-30 g-color-primary g-mb-20">
+                  <i class="fa fa-subway"></i>
+                </span>
+                <h3 class="text-uppercase g-line-height-1_2 g-font-weight-700 g-color-white g-mb-25">Swissmetro
+                  <br> concept </h3>
+                <p class="g-font-size-13 g-color-white-opacity-0_5 g-mb-30">At EPFL, professor Marcel Jufer first proposed a futuristic transport metro network that operates at a high
+                  speed around 500 km/hour inside low-pressure tunnels.
+                  <br>
+                  <br>
+                  <br> </p>
+                <a href="https://en.wikipedia.org/wiki/Swissmetro" class="text-uppercase g-font-weight-700 g-font-size-11 g-text-underline--none--hover">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="g-bg-img-hero" style="background-image: url(arch_assets/img-temp/1024x683/img2.jpg);">
+              <div class="g-theme-bg-blue-dark-v4 g-opacity-1 g-opacity-0_7--hover g-py-50 g-px-15 g-pa-100-30--sm g-transition-0_2 g-transition--ease-in">
+                <span class="d-block g-line-height-1 g-font-size-30 g-color-primary g-mb-20">
+                  <i class="fa fa-book"></i>
+                </span>
+                <h3 class="text-uppercase g-line-height-1_2 g-font-weight-700 g-color-white g-mb-25">Hyperloop
+                  <br> Concept </h3>
+                <p class="g-font-size-13 g-color-white-opacity-0_5 g-mb-30">In 2013, Elon Musk published the Hyperloop Alpha concept that conceived a system that would transport the
+                  passengers with a top speed of 1200 km/hour.
+                  <br>
+                  <br>
+                  <br> </p>
+                <a href="http://www.spacex.com/hyperloop" class="text-uppercase g-font-weight-700 g-font-size-11 g-text-underline--none--hover">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="g-bg-img-hero" style="background-image: url(arch_assets/img-temp/1024x683/img3.jpg);">
+              <div class="g-theme-bg-blue-dark-v4 g-opacity-1 g-opacity-0_7--hover g-py-50 g-px-15 g-pa-100-30--sm g-transition-0_2 g-transition--ease-in">
+                <span class="d-block g-line-height-1 g-font-size-30 g-color-primary g-mb-20">
+                  <i class="fa fa-bolt"></i>
+                </span>
+                <h3 class="text-uppercase g-line-height-1_2 g-font-weight-700 g-color-white g-mb-25">Competition
+                  <br> I & II</h3>
+                <p class="g-font-size-13 g-color-white-opacity-0_5 g-mb-30">Following the spirit for the hyleroop alpha diesgn, SpaceX organized the first two competition has been healed
+                  in January and August 2017 that challenged the universtiy teams to build and test the pods. &nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <a href="http://www.spacex.com/hyperloop" class="text-uppercase g-font-weight-700 g-font-size-11 g-text-underline--none--hover">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="g-bg-img-hero" style="background-image: url(arch_assets/img-temp/1024x683/img4.jpg);">
+              <div class="g-theme-bg-blue-dark-v3 g-opacity-1 g-opacity-0_7--hover g-py-50 g-px-15 g-pa-100-30--sm g-transition-0_2 g-transition--ease-in">
+                <span class="d-block g-line-height-1 g-font-size-30 g-color-primary g-mb-20">
+                  <i class="fa fa-globe"></i>
+                </span>
+                <h3 class="text-uppercase g-line-height-1_2 g-font-weight-700 g-color-white g-mb-25">Competition
+                  <br> III </h3>
+                <p class="g-font-size-13 g-color-white-opacity-0_5 g-mb-30">This year EPFL officially enters the hyerloop compeition for the first time, aiming to help promoting the
+                  development of hyperloop and creating the next-generation transportation system.
+                  <br>
+                  <br> </p>
+                <a href="#" class="text-uppercase g-font-weight-700 g-font-size-11 g-text-underline--none--hover">Read More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- End Row -->
+      </div>
+    </section>
+    <!-- End Section Content -->
+
+    <!-- Section Content -->
+    <section id="projects" class="g-pt-100 g-pb-100--md">
+      <div class="container text-center g-max-width-750 g-mb-70">
+        <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary">
+          <h3 class="h3 g-letter-spacing-7 g-font-size-12 g-color-primary g-mb-25">Technologies</h3>
+          <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-weight-700 g-font-size-30 g-font-size-40--md mb-0">What we do</h2>
+        </div>
+        <p class="g-mb-30"> We are constantly innovating and advancing the boundaries of engineering. Detailed design will be released after
+          the competition ends.
+        </p>
+      </div>
+
+      <div class="container-fluid px-0">
+        <div class="row no-gutters">
+          <div class="col-md-6 col-lg-4 g-parent g-theme-bg-blue-dark-v1--hover g-transition-0_2 g-transition--ease-in">
+            <img class="img-fluid w-100" src="arch_assets/img-temp/1024x683/img5.jpg" alt="Image Description">
+
+            <div class="text-center text-uppercase g-pa-30">
+              <h4 class="g-letter-spacing-7 g-font-size-11 g-color-primary--parent-hover g-mb-10 g-transition-0_2 g-transition--ease-in">State-of-art modeling and engineering</h4>
+              <h3 class="h6 g-letter-spacing-2 g-font-weight-700 g-color-white--parent-hover mb-0 g-transition-0_2 g-transition--ease-in">Accurate construction of the pod with sound theoretical grounds</h3>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 g-parent g-theme-bg-blue-dark-v1--hover g-transition-0_2 g-transition--ease-in">
+            <img class="img-fluid w-100" src="arch_assets/img-temp/1024x683/img6.jpg" alt="Image Description">
+
+            <div class="text-center text-uppercase g-pa-30">
+              <h4 class="g-letter-spacing-7 g-font-size-11 g-color-primary--parent-hover g-mb-10 g-transition-0_2 g-transition--ease-in">Rapid development cycle</h4>
+              <h3 class="h6 g-letter-spacing-2 g-font-weight-700 g-color-white--parent-hover mb-0 g-transition-0_2 g-transition--ease-in">Fast exeution that accelrates project maturtity</h3>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 g-parent g-theme-bg-blue-dark-v1--hover g-transition-0_2 g-transition--ease-in">
+            <img class="img-fluid w-100" src="arch_assets/img-temp/1024x683/img7.jpg" alt="Image Description">
+
+            <div class="text-center text-uppercase g-pa-30">
+              <h4 class="g-letter-spacing-7 g-font-size-11 g-color-primary--parent-hover g-mb-10 g-transition-0_2 g-transition--ease-in">Integrated engineering systems</h4>
+              <h3 class="h6 g-letter-spacing-2 g-font-weight-700 g-color-white--parent-hover mb-0 g-transition-0_2 g-transition--ease-in">Well-tuned engineering work systems put the best on the table</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- End Section Content -->
+
+    <!-- Section Content -->
+    <section id="team" class="g-theme-bg-blue-dark-v1 g-py-80">
+      <div class="container text-center">
+        <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary g-mb-30">
+          <h3 class="h3 g-letter-spacing-7 g-font-size-12 g-color-primary g-mb-25">Diverse talents</h3>
+          <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-weight-700 g-font-size-30 g-font-size-30 g-font-size-40--md--md g-color-white mb-0">The team</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-lg-3">
+            <!-- Nav tabs -->
+            <ul class="nav flex-column text-uppercase u-nav-v3-1 g-font-weight-700 g-font-size-12" role="tablist" data-target="servicesTabs"
+              data-tabs-mobile-type="accordion" data-btn-classes="btn btn-lg btn-block u-btn-darkgray u-btn-inset g-mb-20">
+              <li class="nav-item">
+                <a class="nav-link g-py-17 px-0 active" href="#servicesTabsBody1" role="tab" data-toggle="tab">
+                  <i class="fa fa-arrow-right g-color-primary g-mr-7"></i>
+                  Advisors
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link g-py-17 px-0" href="#servicesTabsBody2" role="tab" data-toggle="tab">
+                  <i class="fa fa-arrow-right g-color-primary g-mr-7"></i>
+                  Team Leads
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link g-py-17 px-0" href="#servicesTabsBody3" role="tab" data-toggle="tab">
+                  <i class="fa fa-arrow-right g-color-primary g-mr-7"></i>
+                  Business
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link g-py-17 px-0" href="#servicesTabsBody4" role="tab" data-toggle="tab">
+                  <i class="fa fa-arrow-right g-color-primary g-mr-7"></i>
+                  Aerospace 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link g-py-17 px-0" href="#servicesTabsBody5" role="tab" data-toggle="tab">
+                  <i class="fa fa-arrow-right g-color-primary g-mr-7"></i>
+                  Avionics 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link g-py-17 px-0" href="#servicesTabsBody6" role="tab" data-toggle="tab">
+                  <i class="fa fa-arrow-right g-color-primary g-mr-7"></i>
+                  Energy 
+                </a>
+              </li>              
+              <li class="nav-item">
+                <a class="nav-link g-py-17 px-0" href="#servicesTabsBody7" role="tab" data-toggle="tab">
+                  <i class="fa fa-arrow-right g-color-primary g-mr-7"></i>
+                  Mechanical and electrical engineering
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link g-py-17 px-0" href="#servicesTabsBody8" role="tab" data-toggle="tab">
+                  <i class="fa fa-arrow-right g-color-primary g-mr-7"></i>
+                  Software and communication 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link g-py-17 px-0" href="#servicesTabsBody9" role="tab" data-toggle="tab">
+                  <i class="fa fa-arrow-right g-color-primary g-mr-7"></i>
+                  Propulsion 
+                </a>
+              </li>
+            </ul>
+            <!-- End Nav tabs -->
+          </div>
+
+          <!-- Advisors -->
+          <div class="col-md-8 col-lg-9">
+            <!-- Tab panes -->
+            <div id="servicesTabs" class="tab-content">
+              <div class="tab-pane fade g-pb-20 g-pb-0--md show active" id="servicesTabsBody1" role="tabpanel">
+
+                <div class="d-flex justify-content-center row g-mx-minus-25 g-mb-40">
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <img class="u-shadow-v29 g-width-120 g-height-120 rounded-circle mb-5" src="arch_assets/img/team_photos/marcel_jufer.jpg"
+                        alt="Image Description">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Professor Marcel Jufer</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Honorary Professor STI</span>
+                      <a class="u-link-v5 g-color-text g-color-main--hover g-font-size-13" href="mailto:marcel.jufer@epfl.ch">marcel.jufer@epfl.ch</a>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <img class="u-shadow-v29 g-width-120 g-height-120 rounded-circle mb-5" src="arch_assets/img/team_photos/mario_paolone_1.jpg"
+                        alt="Image Description">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Professor Mario Paolone</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Head of Distributed Electrical Systems Laboratory at EPFL</span>
+                      <a class="u-link-v5 g-color-text g-color-main--hover g-font-size-13" href="mailto:mario.paolone@epfl.ch">mario.paolone@epfl.ch</a>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
 
 
-      <!-- Footer -->
-      <footer>
-        <form action="https://formspree.io/epfloop@gmail.com" method="POST">
-			<div id="contact" class="g-py-80">
-			  <div class="container">
-				<div class="container text-center g-max-width-750 g-mb-70">
-				  <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary">
-					<h3 class="h3 g-letter-spacing-7 g-font-size-12 g-color-primary g-mb-25">Contact us</h3>
-					<h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-weight-700 g-font-size-30 g-font-size-40--md mb-0">Keep in touch</h2>
-				  </div>
-				</div>
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <img class="u-shadow-v29 g-width-120 g-height-120 rounded-circle mb-5" src="arch_assets/img/team_photos/drazen_dujic.jpg"
+                        alt="Image Description">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Professor Drazen Dujic</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Tenure Track Assistant Professor and Head of the Power Electronics Laboratoryat EPFL</span>
+                      <a class="u-link-v5 g-color-text g-color-main--hover g-font-size-13" href="mailto:drazen.dujic@epfl.ch">drazen.dujic@epfl.ch</a>
+                    </div>
+                    <!-- End Team Member -->
+                  </div>
 
-				<div class="row">
-				  <div class="col-md-9 g-mb-25 g-mb-0--md">
-					<div class="row">
-					  <div class="col-sm-6 form-group g-mb-30">
-						<input id="inputGroup1_1" class="form-control g-font-size-14 g-theme-bg-gray-light-v2 g-brd-none g-rounded-1 g-py-14 g-px-10" type="text" placeholder="Your name" name="name">
-					  </div>
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <img class="u-shadow-v29 g-width-120 g-height-120 rounded-circle mb-5" src="arch_assets/img/team_photos/andreas_burg.jpg"
+                        alt="Image Description">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Professor Andreas Peter Burg</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Tenure Track Assistant Professor at EPFL</span>
+                      <a class="u-link-v5 g-color-text g-color-main--hover g-font-size-13" href="mailto:andreas.burg@epfl.ch">andreas.burg@epfl.ch</a>
+                    </div>
+                    <!-- End Team Member -->
+                  </div>
 
-					  <div class="col-sm-6 form-group g-mb-30">
-						<input id="inputGroup1_2" class="form-control g-font-size-14 g-theme-bg-gray-light-v2 g-brd-none g-rounded-1 g-py-14 g-px-10" type="tel" placeholder="Your phone" name="phone">
-					  </div>
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <img class="u-shadow-v29 g-width-120 g-height-120 rounded-circle mb-5" src="arch_assets/img/team_photos/andre_hodder_1.png"
+                        alt="Image Description">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">André Hodder PhD</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Electrical engineering scientist at EPFL</span>
+                      <a class="u-link-v5 g-color-text g-color-main--hover g-font-size-13" href="mailto:andre.hodder@epfl.ch">andre.hodder@epfl.ch</a>
+                    </div>
+                    <!-- End Team Member -->
+                  </div>
 
-					  <div class="col-sm-6 form-group g-mb-30">
-						<input id="inputGroup1_3" class="form-control g-font-size-14 g-theme-bg-gray-light-v2 g-brd-none g-rounded-1 g-py-14 g-px-10" type="email" placeholder="Email *" name="_replyto">
-					  </div>
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <img class="u-shadow-v29 g-width-120 g-height-120 rounded-circle mb-5" src="arch_assets/img/team_photos/matteo_galli.jpg"
+                        alt="Image Description">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Matteo Galli PhD</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Deputy Director of the Institute and Section of Mechanical Engineering at EPFL</span>
+                      <a class="u-link-v5 g-color-text g-color-main--hover g-font-size-13" href="mailto:matteo.galli@epfl.ch">matteo.galli@epfl.ch</a>
+                    </div>
+                    <!-- End Team Member -->
+                  </div>
+                </div>
+              </div>
+              <!-- End Advisors -->
 
-					  <div class="col-sm-6 form-group g-mb-30">
-						<input id="inputGroup1_4" class="form-control g-font-size-14 g-theme-bg-gray-light-v2 g-brd-none g-rounded-1 g-py-14 g-px-10" type="text" placeholder="Subject" name="subject">
-					  </div>
+              <!-- Team leads -->
+              <div class="tab-pane fade g-pb-20 g-pb-0--md" id="servicesTabsBody2" role="tabpanel">
+                <div class="d-flex justify-content-center row g-mx-minus-25 g-mb-40">
 
-					  <div class="col-md-12 form-group g-mb-30">
-						<textarea id="inputGroup1_5" class="form-control g-resize-none g-font-size-14 g-theme-bg-gray-light-v2 g-brd-none g-rounded-1 g-py-14 g-px-10" rows="4" placeholder="Message" name="message"></textarea>
-					  </div>
-					</div>
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Denis Tudor</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Team Leader</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
 
-					<div class="text-center">
-					  <button class="btn u-btn-primary btn-md text-uppercase g-line-height-1 g-font-weight-700 g-font-size-11 rounded-0 g-py-12 g-px-25 mb-0" type="submit" role="button" value="Send">Send message</button>
-					</div>
-				  </div>
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Axel Uran</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Business Lead</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
 
-				  <div class="col-md-3">
-					<address class="row text-center">
-					  <div class="col-sm-4 col-md-12 g-mb-30">
-						<i class="icon-directions icon d-inline-block g-font-size-20 g-color-primary g-mb-7"></i>
-						<h3 class="text-uppercase g-font-size-12 g-mb-5">Address</h3>
-						<strong class="g-font-size-14 g-color-black">Route Cantonale, 1015 Lausanne</strong>
-					  </div>
-					</address>
-				  </div>
-				</div>
-			  </div>
-			</div>
-		</form>
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Hang Yuan</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">PR and Web Lead</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
 
-        <!-- Google (Map) [custom] -->
-        <div class="g-pos-rel g-height-400">
-          <div id="gMap7" class="js-g-map g-pos-abs w-100 h-100"
-               data-type="custom"
-               data-lat="46.5190557"
-               data-lng="6.5667576"
-               data-zoom="15"
-               data-title="Architecture"
-               data-styles='[
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Théophane Dimier</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Elec-energy-drive Lead</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Jelena Malic</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Media and Communication Lead</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Antoine Coppens</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Elec-energy Lead</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+                </div>
+              </div>
+              <!-- End of team leads -->
+
+              <!-- Business -->
+              <div class="tab-pane fade g-pb-20 g-pb-0--md" id="servicesTabsBody3" role="tabpanel">
+                <div class="d-flex justify-content-center row g-mx-minus-25 g-mb-40">
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Ambroise Grau</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Logistics</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Yann Lauber</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Designer</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Axel Uran</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Business Lead</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Milena Filipovic</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Software & web</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Nemanja Stojoski</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Software & web</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Nicolas Palazzo</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Design</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Nour Mdeihli</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Business</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Gay-Balmaz Philippe</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Fiance and HR</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                </div>
+              </div>
+              <!-- End of Business -->
+
+              <!-- Aerospace -->
+              <div class="tab-pane fade g-pb-20 g-pb-0--md" id="servicesTabsBody4" role="tabpanel">
+                <div class="d-flex justify-content-center row g-mx-minus-25 g-mb-40">
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">GNicolò Riva</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Aerospace lead</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Corentin Némoz</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Aerospace & Mechanical engineering</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Lorenzo Benedetti</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Aerospace & Mechanical engineering</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Grégoire Chomette</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Aerospace</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Karim Shalash</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Aerospace</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Hanut Vemulapalli</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Aerospace</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                </div>
+              </div>
+              <!-- End of Aerospace -->         
+              
+              <!-- Avionics -->
+              <div class="tab-pane fade g-pb-20 g-pb-0--md" id="servicesTabsBody5" role="tabpanel">
+                <div class="d-flex justify-content-center row g-mx-minus-25 g-mb-40">
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Neamtu Gabriel</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Avionics lead</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Manon Poffet</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Avionics</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Massimo Giordano</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Energy & avionics</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                </div>
+              </div>
+              <!-- End of Avionics -->    
+              
+              <!-- Energy -->
+              <div class="tab-pane fade g-pb-20 g-pb-0--md" id="servicesTabsBody6" role="tabpanel">
+                <div class="d-flex justify-content-center row g-mx-minus-25 g-mb-40">
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Antoine Coppens</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Energy lead</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Xi Fan</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Energy lead</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Massimo Giordano</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Energy & avionics</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Linda Ozmen</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Energy</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                </div>
+              </div>
+              <!-- End of Energy -->              
+
+              <!-- Mechan and Ele Eng -->
+              <div class="tab-pane fade g-pb-20 g-pb-0--md" id="servicesTabsBody7" role="tabpanel">
+                <div class="d-flex justify-content-center row g-mx-minus-25 g-mb-40">
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Nicolas Paltengh</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Mechanical engineering lead</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Lucas Schneeberger</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Mechanical engineering</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Ali Motamed</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Mechanical engineering</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Martin Seydoux</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Mechan-simulaiton lead </span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Lorenzo Benedetti</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Aerospace & Mechanical engineering</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">João Gomes Pereira Junior</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Mechanical engineering</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Corentin Némoz</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Aerospace & Mechanical engineering</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+                  
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Emilie Freud</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Mechanical engineering</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Armin Jafari</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Electrical engineering</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+                </div>
+              </div>
+              <!-- End of Mechan and EE -->
+
+              <!-- Software and communication -->
+              <div class="tab-pane fade g-pb-20 g-pb-0--md" id="servicesTabsBody8" role="tabpanel">
+                <div class="d-flex justify-content-center row g-mx-minus-25 g-mb-40">
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Antoine Wehenkel</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Software</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Milena Filipovic</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Software & web</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Nemanja Stojoski</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Software & web</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                </div>
+              </div>
+              <!-- End of software and communication -->
+
+              <!-- Propulsion -->
+              <div class="tab-pane fade g-pb-20 g-pb-0--md" id="servicesTabsBody9" role="tabpanel">
+                <div class="d-flex justify-content-center row g-mx-minus-25 g-mb-40">
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Théophane Dimier</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Propulsion lead</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+
+                  <div class="col-6 col-lg-3 g-px-25 g-mb-50">
+                    <!-- Team Member-->
+                    <div class="text-center">
+                      <h4 class="h5 g-font-weight-600 mb-1 g-color-primary">Besnik</h4>
+                      <hr class="g-brd-gray-light-v4 g-my-15">
+                      <span class="d-block g-color-primary">Propulsion</span>
+                    </div>
+                    <!-- End Team Member-->
+                  </div>
+                </div>
+              </div>
+              <!-- End of Propulsion -->
+
+            </div>
+            <!-- End Tab panes -->
+          </div>
+        </div>
+    </section>
+    <!-- End Section Content -->
+
+    <!-- Section Content -->
+    <section id="sponsors" class="g-pt-100 g-pb-100--md">
+      <div class="container text-center g-max-width-750 g-mb-70">
+        <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary">
+          <h3 class="h3 g-letter-spacing-7 g-font-size-12 g-color-primary g-mb-25">Sponsorship</h3>
+          <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-weight-700 g-font-size-30 g-font-size-40--md mb-0">How to collabrate</h2>
+        </div>
+
+        <p class="g-mb-30"> EPFLoop cannot achieve its ambitious goals without the generous support from our partners. Don't hesitate to contact
+          us if you would like to work together. Please click the following button if you are interested in any potential
+          partnership. </p>
+
+        <form method="post" action="mailto:epfloop@gmail.com">
+          <button class="btn u-btn-primary btn-md text-uppercase g-line-height-1 g-font-weight-700 g-font-size-11 rounded-0 g-py-12 g-px-25 mb-0"
+            type="submit" role="button" value="Send">Sponsor Us</button>
+        </form>
+
+      </div>
+    </section>
+    <!-- End Section Content -->
+
+    <!-- Quote -->
+    <div class="dzsparallaxer auto-init height-is-based-on-content use-loading" data-options='{direction: "reverse", settings_mode_oneelement_max_offset: "150"}'>
+      <div class="divimage dzsparallaxer--target w-100 g-bg-size-cover g-bg-img-hero g-bg-cover g-bg-black-opacity-0_6--after"
+        style="height: 130%; background-image: url(arch_assets/img/team_photos/mario_paolone.jpg);"></div>
+
+      <div class="text-center g-pos-rel g-z-index-1 g-theme-bg-blue-dark-v1 g-py-100">
+        <blockquote class="g-color-white g-font-family-merriweather g-font-size-30 g-font-size-40--md g-line-height-1_4 g-mb-50">
+          <span class="g-color-primary g-font-family-ptsans g-font-size-90 g-line-height-0_7 g-pos-rel g-top-30">&#8220;</span>
+          It is possible for ordinary people to choose to be extraordinary.
+          <span class="g-color-primary g-font-family-ptsans g-font-size-90 g-line-height-0_7 g-pos-rel g-top-30">&#8221;</span>
+        </blockquote>
+        <h4 class="g-color-white g-font-size-15 text-uppercase mb-1">
+          <span class="d-inline-block align-middle g-width-40 g-height-2 g-bg-primary mr-3"></span> Elon Musk</h4>
+      </div>
+    </div>
+
+    <!-- End Quote -->
+
+
+    <!-- Footer -->
+    <footer>
+      <form action="https://formspree.io/epfloop@gmail.com" method="POST">
+        <div id="contact" class="g-py-80">
+          <div class="container">
+            <div class="container text-center g-max-width-750 g-mb-70">
+              <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary">
+                <h3 class="h3 g-letter-spacing-7 g-font-size-12 g-color-primary g-mb-25">Contact us</h3>
+                <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-weight-700 g-font-size-30 g-font-size-40--md mb-0">Keep in touch</h2>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-9 g-mb-25 g-mb-0--md">
+                <div class="row">
+                  <div class="col-sm-6 form-group g-mb-30">
+                    <input id="inputGroup1_1" class="form-control g-font-size-14 g-theme-bg-gray-light-v2 g-brd-none g-rounded-1 g-py-14 g-px-10"
+                      type="text" placeholder="Your name" name="name">
+                  </div>
+
+                  <div class="col-sm-6 form-group g-mb-30">
+                    <input id="inputGroup1_2" class="form-control g-font-size-14 g-theme-bg-gray-light-v2 g-brd-none g-rounded-1 g-py-14 g-px-10"
+                      type="tel" placeholder="Your phone" name="phone">
+                  </div>
+
+                  <div class="col-sm-6 form-group g-mb-30">
+                    <input id="inputGroup1_3" class="form-control g-font-size-14 g-theme-bg-gray-light-v2 g-brd-none g-rounded-1 g-py-14 g-px-10"
+                      type="email" placeholder="Email *" name="_replyto">
+                  </div>
+
+                  <div class="col-sm-6 form-group g-mb-30">
+                    <input id="inputGroup1_4" class="form-control g-font-size-14 g-theme-bg-gray-light-v2 g-brd-none g-rounded-1 g-py-14 g-px-10"
+                      type="text" placeholder="Subject" name="subject">
+                  </div>
+
+                  <div class="col-md-12 form-group g-mb-30">
+                    <textarea id="inputGroup1_5" class="form-control g-resize-none g-font-size-14 g-theme-bg-gray-light-v2 g-brd-none g-rounded-1 g-py-14 g-px-10"
+                      rows="4" placeholder="Message" name="message"></textarea>
+                  </div>
+                </div>
+
+                <div class="text-center">
+                  <button class="btn u-btn-primary btn-md text-uppercase g-line-height-1 g-font-weight-700 g-font-size-11 rounded-0 g-py-12 g-px-25 mb-0"
+                    type="submit" role="button" value="Send">Send message</button>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <address class="row text-center">
+                  <div class="col-sm-4 col-md-12 g-mb-30">
+                    <i class="icon-directions icon d-inline-block g-font-size-20 g-color-primary g-mb-7"></i>
+                    <h3 class="text-uppercase g-font-size-12 g-mb-5">Address</h3>
+                    <strong class="g-font-size-14 g-color-black">Route Cantonale, 1015 Lausanne</strong>
+                  </div>
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <!-- Google (Map) [custom] -->
+      <div class="g-pos-rel g-height-400">
+        <div id="gMap7" class="js-g-map g-pos-abs w-100 h-100" data-type="custom" data-lat="46.5190557" data-lng="6.5667576" data-zoom="15"
+          data-title="Architecture" data-styles='[
                  ["", "", [{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]],
                  ["", "labels", [{"visibility":"on"}]],
                  ["water", "", [{"color":"#f7f4f4"}]]
-               ]'
-               data-pin="true"
-               data-pin-icon="arch_assets/img/pin.png"></div>
-        </div>
-        <!-- End Google (Map) [custom] -->
+               ]' data-pin="true" data-pin-icon="arch_assets/img/pin.png"></div>
+      </div>
+      <!-- End Google (Map) [custom] -->
 
-        <div class="text-center g-color-gray-dark-v5 g-theme-bg-blue-dark-v1 g-py-70">
-          <a class="d-block g-width-140 mx-auto g-mb-30" href="/">
-            <img class="img-fluid" src="arch_assets/img/eloop.png" alt="Image description">
-          </a>
+      <div class="text-center  g-theme-bg-blue-dark-v1 g-py-10">
+        <a class="d-block g-width-140 mx-auto g-mb-30" href="/">
+          <img class="img-fluid" src="arch_assets/img/eloop.png" alt="Image description">
+        </a>
 
-          <ul class="list-inline d-inline-block mb-0">
-            <li class="list-inline-item">
-              <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-16 g-color-gray-dark-v5 g-color-white--hover g-theme-bg-blue-dark-v2 g-bg-primary--hover g-transition-0_2 g-transition--ease-in" href="https://www.facebook.com/epfloop/"><i class="fa fa-facebook"></i></a>
-            </li>
-          </ul>
-        </div>
-      </footer>
-      <!-- End Footer -->
+        <ul class="list-inline d-inline-block mb-0">
+          <li class="list-inline-item">
+            <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-16 g-color-gray-dark-v5 g-color-white--hover g-theme-bg-blue-dark-v2 g-bg-primary--hover g-transition-0_2 g-transition--ease-in"
+              href="https://www.facebook.com/epfloop/">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
 
-      <a class="js-go-to u-go-to-v1" href="#"
-         data-type="fixed"
-         data-position='{
+    </footer>
+    <!-- End Footer -->
+
+    <a class="js-go-to u-go-to-v1" href="#" data-type="fixed" data-position='{
            "bottom": 15,
            "right": 15
-         }'
-         data-offset-top="400"
-         data-compensation="#js-header"
-         data-show-effect="zoomIn">
-        <i class="hs-icon hs-icon-arrow-top"></i>
-      </a>
-    </main>
+         }' data-offset-top="400" data-compensation="#js-header" data-show-effect="zoomIn">
+      <i class="hs-icon hs-icon-arrow-top"></i>
+    </a>
+  </main>
 
-    <!-- JS Global Compulsory -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-    <script src="assets/vendor/jquery.easing/js/jquery.easing.js"></script>
-    <script src="assets/vendor/popper.min.js"></script>
-    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+  <!-- JS Global Compulsory -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+  <script src="assets/vendor/jquery.easing/js/jquery.easing.js"></script>
+  <script src="assets/vendor/popper.min.js"></script>
+  <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
 
-    <!-- JS Implementing Plugins -->
-    <script src="assets/vendor/appear.js"></script>
-    <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
-    <script src="assets/vendor/gmaps/gmaps.min.js"></script>
+  <!-- JS Implementing Plugins -->
+  <script src="assets/vendor/appear.js"></script>
+  <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
+  <script src="assets/vendor/gmaps/gmaps.min.js"></script>
 
-    <!-- JS Unify -->
-    <script src="assets/js/hs.core.js"></script>
-    <script src="assets/js/components/hs.header.js"></script>
-    <script src="assets/js/helpers/hs.hamburgers.js"></script>
-    <script src="assets/js/components/hs.scroll-nav.js"></script>
-    <script src="assets/js/components/hs.tabs.js"></script>
-    <script src="assets/js/components/hs.carousel.js"></script>
-    <script src="assets/js/components/gmap/hs.map.js"></script>
-    <script src="assets/js/components/hs.go-to.js"></script>
+  <!-- JS Unify -->
+  <script src="assets/js/hs.core.js"></script>
+  <script src="assets/js/components/hs.header.js"></script>
+  <script src="assets/js/helpers/hs.hamburgers.js"></script>
+  <script src="assets/js/components/hs.scroll-nav.js"></script>
+  <script src="assets/js/components/hs.tabs.js"></script>
+  <script src="assets/js/components/hs.carousel.js"></script>
+  <script src="assets/js/components/gmap/hs.map.js"></script>
+  <script src="assets/js/components/hs.go-to.js"></script>
 
-    <!-- JS Customization -->
-    <script src="assets/js/custom.js"></script>
+  <!-- JS Customization -->
+  <script src="assets/js/custom.js"></script>
 
-    <!-- JS Plugins Init. -->
-    <script>
-      // initialization of google map
-      function initMap() {
-        $.HSCore.components.HSGMap.init('.js-g-map');
-      }
+  <!-- JS Plugins Init. -->
+  <script>
+    // initialization of google map
+    function initMap() {
+      $.HSCore.components.HSGMap.init('.js-g-map');
+    }
 
-      $(document).on('ready', function () {
-        // initialization of carousel
-        $.HSCore.components.HSCarousel.init('.js-carousel');
+    $(document).on('ready', function () {
+      // initialization of carousel
+      $.HSCore.components.HSCarousel.init('.js-carousel');
 
-        $('#carouselCus1, #carouselCus2').slick('setOption', 'responsive', [{
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3
-          }
-        }, {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
-          }
-        }, {
-          breakpoint: 576,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }], true);
+      $('#carouselCus1, #carouselCus2').slick('setOption', 'responsive', [{
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3
+        }
+      }, {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      }, {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }], true);
 
-        // initialization of header
-        $.HSCore.components.HSHeader.init($('#js-header'));
-        $.HSCore.helpers.HSHamburgers.init('.hamburger');
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#js-header'));
+      $.HSCore.helpers.HSHamburgers.init('.hamburger');
 
-        // initialization of tabs
-        $.HSCore.components.HSTabs.init('[role="tablist"]');
+      // initialization of tabs
+      $.HSCore.components.HSTabs.init('[role="tablist"]');
 
-        // initialization of go to section
-        $.HSCore.components.HSGoTo.init('.js-go-to');
+      // initialization of go to section
+      $.HSCore.components.HSGoTo.init('.js-go-to');
 
-        $('#processes [role="tablist"] .nav-link').on('click', function () {
-          setTimeout(function () {
-            $('#processesTabs .js-carousel').slick('setPosition');
-          }, 200);
-        });
-      });
-
-      $(window).on('load', function() {
-        // initialization of HSScrollNav
-        $.HSCore.components.HSScrollNav.init($('.js-scroll-nav'), {
-          duration: 700,
-          easing: 'easeOutExpo'
-        });
-      });
-
-      $(window).on('resize', function () {
+      $('#processes [role="tablist"] .nav-link').on('click', function () {
         setTimeout(function () {
-          $.HSCore.components.HSTabs.init('[role="tablist"]');
+          $('#processesTabs .js-carousel').slick('setPosition');
         }, 200);
       });
-    </script>
+    });
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtt1z99GtrHZt_IcnK-wryNsQ30A112J0&callback=initMap" async></script>
-  </body>
+    $(window).on('load', function () {
+      // initialization of HSScrollNav
+      $.HSCore.components.HSScrollNav.init($('.js-scroll-nav'), {
+        duration: 700,
+        easing: 'easeOutExpo'
+      });
+    });
+
+    $(window).on('resize', function () {
+      setTimeout(function () {
+        $.HSCore.components.HSTabs.init('[role="tablist"]');
+      }, 200);
+    });
+  </script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtt1z99GtrHZt_IcnK-wryNsQ30A112J0&callback=initMap" async></script>
+</body>
+
 </html>
