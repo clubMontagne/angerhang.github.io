@@ -7,11 +7,11 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Hang Yuan
-tagline:          Hang's space
-description:      Neuro@<a href="https://www.epfl.ch">EPFL</a> 2019
-site_base:        https://angerhang.github.io/
-url:              https://angerhang.github.io/
+title:            Club Montagne 
+tagline:          Members' space
+description:      Montagne@<a href="https://www.epfl.ch">EPFL</a> 
+site_base:        https://clubmontagne.github.io/
+url:              https://clubmontagne.github.io
 baseurl:          /
 
 author:
