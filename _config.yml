@@ -7,9 +7,9 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Club Montagne 
+title:            <a href="https://www.epfl.ch">EPFL</a>
 tagline:          Members' space
-description:      Montagne@<a href="https://www.epfl.ch">EPFL</a> 
+description:      Club Montagne
 site_base:        https://clubmontagne.github.io/
 url:              https://clubmontagne.github.io
 baseurl:          /
