@@ -18,17 +18,6 @@ def csv_reader(file_obj):
         print(" ".join(line))
 
 
-
-def generateLink(name, reg_time):
-    # gives everyone a unique url
-    # the encoding scheme is base_url + name (ascii) + date of creation
-    root_link = "https:"
-
-    encoded_str = ''
-    for c in name:
-        encoded_str = encoded_str + str(ord(c))
-    return root_link + encoded_str + reg_time
-
 with open(data_dir, newline='') as csvfile:
      spamreader = csv.DictReader(csvfile)
      for row in spamreader:
@@ -51,4 +40,3 @@ with open(data_dir, newline='') as csvfile:
        file.write('![](/members/img/bar.png)\n')
 
        file.close()
-
