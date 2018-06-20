@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Hang Yuan
+title: Oleg Yazyev
 ---
 
-Status: Bachelor/Master student
+Status: External
 
 Expiration date: 2019.01.01
 
 Validity: <font color="red"> Not valid</font> 
-![](/members/img/Hang_Yuan.png)
+![](/members/img/Oleg_Yazyev.png)
 ![](/members/img/bar.png)

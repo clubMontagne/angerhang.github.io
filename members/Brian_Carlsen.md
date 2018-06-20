@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Hang Yuan
+title: Brian Carlsen
 ---
 
-Status: Bachelor/Master student
+Status: Phd student
 
 Expiration date: 2019.01.01
 
 Validity: <font color="red"> Not valid</font> 
-![](/members/img/Hang_Yuan.png)
+![](/members/img/Brian_Carlsen.png)
 ![](/members/img/bar.png)

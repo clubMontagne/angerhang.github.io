@@ -1,6 +1,7 @@
 import urllib.request
 import csv
 import qrcode
+from time import time
 import webbrowser
 import requests
 import sys
@@ -60,7 +61,7 @@ def generateQR(link):
 
     qr_code = qr.make_image()
     temp_location = 'image.jpg'
-    
+
     qr_code.save(temp_location)
 
 def download_file_from_google_drive(id, destination):
@@ -118,20 +119,23 @@ def send_email(dest_email):
     attachment = 'image.jpg'
 
     msg = MIMEMultipart()
-    msg["To"] = "clubMontagne2018@gmail.com"
+    msg["To"] = "info@clubmontagne.ch"
     msg["From"] = "clubMontagne2018@gmail.com"
     msg["Subject"] = "Your membership QR code"
     text = """\
         Salut!
 
-        Here is your membership card for Club Montagne at EPFL 
+        Thank you again for your support. Here is your membership
+        card for Club Montagne at EPFL. Keep it with you whenever
+        someone ask for a confirmation of your membership.
         
-        If you have any questions or suggestions, feel free to email
-            
-        clubMontagne2018@gmail.com. 
+        Just a reminder if your membership status is not valid, you will need to pay the membership
+        fees which can be done at the rental sessions. (more info at https://clubmontagne.epfl.ch/equipment/en).
+        
+        Lastly, if you have any questions or suggestions, feel free to email
+        us at info@clubmontagne.ch :D 
 
         Cheers,
-        
         Club Montagne 
     """
 
@@ -152,28 +156,37 @@ def send_email(dest_email):
     mailserver.starttls()
     # re-identify ourselves as an encrypted connection
     mailserver.ehlo()
-    mailserver.login('clubMontagne2018@gmail.com', '7CD')
+    mailserver.login('clubMontagne2018@gmail.com', '7CD-BmW-z6f-gd3')
 
     mailserver.sendmail('clubMontagne2018@gmail.com', dest_email, msg.as_string())
 
     mailserver.quit()
 
 def process_info(info_path, photo_path):
+    start = time()
     df = pd.read_csv(info_path)
     validities = []
-    wrong_emails = []
+    email_f = []
+    completions = []
+
     for index, row in df.iterrows():
+        print('Starting subject ' + str(index) + ' ...')
+        if_complete = True;
+
         # 1. validate member page
         validities.append(verifyMember(row['EPFL personal page link'], row['Status'], row['Payment']))
 
         # 2. download photo
-        pic_id = row['Profile picture']
-        pic_id = pic_id.split("id=",1)[1]
-        img_name = row['First name'] + '_' + row['Last name'] + '.png'
-        download_file_from_google_drive(pic_id, photo_path + img_name)
+        try:
+            pic_id = row['Profile picture']
+            pic_id = pic_id.split("id=",1)[1]
+            img_name = row['First name'] + '_' + row['Last name'] + '.png'
+            # download_file_from_google_drive(pic_id, photo_path + img_name)
+        except:
+            if_complete = False;
 
         # 3. generate member page
-        generateMemberPage( row['First name'],  row['Last name'], row['Status'],  validities[index], 'img/' + img_name)
+        # generateMemberPage(row['First name'],  row['Last name'], row['Status'],  validities[index], 'img/' + img_name)
 
         # 4. send QR code
         base_link = 'https://clubmontagne.github.io/members/'
@@ -182,13 +195,20 @@ def process_info(info_path, photo_path):
         # 5. send QR code to the email
         try:
             send_email(row['Email Address'])
+            email_f.append(True)
         except:
-            wrong_emails.append(row['Email Address'])
+            # wrong_emails.append(row['Email Address'])
+            email_f.append(False)
+            if_complete = False
 
-    print(wrong_emails)
+        completions.append(if_complete)
+        print('.....done! ')
+        print('Elapsed time: {}'.format(time() - start) + '\n')
 
-    # df['validity'] = validities
-    # df.to_csv('test.csv')
+    df['Email_sent'] = email_f
+    df['Payment'] = validities
+    df['If_complete'] = completions
+    df.to_csv("final.csv", index=False)
 
 # specify the excel to process and the member photo path
 # 1. verify if the member status is valid

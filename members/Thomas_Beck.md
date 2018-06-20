@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Hang Yuan
+title: Thomas Beck
 ---
 
-Status: Bachelor/Master student
+Status: External
 
 Expiration date: 2019.01.01
 
 Validity: <font color="red"> Not valid</font> 
-![](/members/img/Hang_Yuan.png)
+![](/members/img/Thomas_Beck.png)
 ![](/members/img/bar.png)
