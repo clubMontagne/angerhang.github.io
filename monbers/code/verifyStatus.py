@@ -24,9 +24,7 @@ def verifyMember(p_link, status, payment):
     # more than 5 student or etudiant
 
     if status != 'Bachelor/Master student':
-        if payment == 'Yes':
-            return True
-        return False
+        return payment
 
     try:
         # the driver needs to be installed to use the following block
