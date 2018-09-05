@@ -155,7 +155,7 @@ def send_email(dest_email):
     mailserver.starttls()
     # re-identify ourselves as an encrypted connection
     mailserver.ehlo()
-    mailserver.login('clubMontagne2018@gmail.com', '7CD-BmW-z6f-gd3')
+    mailserver.login('clubMontagne2018@gmail.com', '<add clear text password here>')
 
     mailserver.sendmail('clubMontagne2018@gmail.com', dest_email, msg.as_string())
 
