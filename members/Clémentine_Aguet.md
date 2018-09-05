@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Lara Orlandic
+title: Clémentine Aguet
 ---
 
-Status: Bachelor/Master student
+Status: External
 
 Expiration date: 2019.01.01
 
 Validity: <font color="red"> Not valid</font> 
-![](/members/img/Lara_Orlandic.png)
+![](/members/img/Clémentine_Aguet.png)
 ![](/members/img/bar.png)

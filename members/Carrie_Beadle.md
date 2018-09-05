@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Lara Orlandic
+title: Carrie Beadle
 ---
 
-Status: Bachelor/Master student
+Status: Phd student
 
 Expiration date: 2019.01.01
 
 Validity: <font color="red"> Not valid</font> 
-![](/members/img/Lara_Orlandic.png)
+![](/members/img/Carrie_Beadle.png)
 ![](/members/img/bar.png)
