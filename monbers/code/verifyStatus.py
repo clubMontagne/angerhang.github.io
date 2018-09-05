@@ -41,7 +41,8 @@ def verifyMember(p_link, status, payment):
             return True
         else:
             return False
-    except:
+    except Exception as e: 
+        print (e)
         print ("http request failed. Member is not verified")
     return False
 
