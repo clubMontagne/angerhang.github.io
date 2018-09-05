@@ -145,7 +145,7 @@ def send_email(dest_email):
     msgText = MIMEImage(fp.read())
     msg.attach(msgText)  # Added, and edited the previous line
 
-    print(msg.as_string())
+    # print(msg.as_string())
 
     ## send email
     mailserver = smtplib.SMTP('smtp.gmail.com', 587)
@@ -181,11 +181,12 @@ def process_info(info_path, photo_path):
             pic_id = pic_id.split("id=",1)[1]
             img_name = row['First name'] + '_' + row['Last name'] + '.png'
             # download_file_from_google_drive(pic_id, photo_path + img_name)
-        except:
+        except Exception as e: 
+            print (e)
             if_complete = False;
 
         # 3. generate member page
-        # generateMemberPage(row['First name'],  row['Last name'], row['Status'],  validities[index], 'img/' + img_name)
+        generateMemberPage(row['First name'],  row['Last name'], row['Status'],  validities[index], 'img/' + img_name)
 
         # 4. send QR code
         base_link = 'https://clubmontagne.github.io/members/'
@@ -195,7 +196,8 @@ def process_info(info_path, photo_path):
         try:
             send_email(row['Email Address'])
             email_f.append(True)
-        except:
+        except Exception as e: 
+            print (e)
             # wrong_emails.append(row['Email Address'])
             email_f.append(False)
             if_complete = False
