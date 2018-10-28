@@ -176,22 +176,26 @@ def process_info(info_path, photo_path):
         if_complete = True;
 
         # 1. validate member page
+
         validities.append(verifyMember(row['EPFL personal page link'], row['Status'], row['Payment']))
 
-        # 2. download photo
-        try:
-            pic_id = row['Profile picture']
-            pic_id = pic_id.split("id=",1)[1]
-            img_name = row['First name'] + '_' + row['Last name'] + '.png'
-            # download_file_from_google_drive(pic_id, photo_path + img_name)
-        except Exception as e: 
-            print (e)
-            if_complete = False;
+        # 2. download photo -- doesn't work 
+
+        # try:
+        #     pic_id = row['Profile picture']
+        #     pic_id = pic_id.split("id=",1)[1]
+        #     img_name = row['First name'] + '_' + row['Last name'] + '.png'
+        #     download_file_from_google_drive(pic_id, photo_path + img_name)
+        # except Exception as e: 
+        #     print (e)
+        #     if_complete = False;
 
         # 3. generate member page
+
         generateMemberPage(row['First name'],  row['Last name'], row['Status'],  validities[index], 'img/' + img_name)
 
         # 4. send QR code
+
         base_link = 'https://clubmontagne.github.io/members/'
         generateQR(base_link + row['First name'] + '_' + row['Last name'])
 
