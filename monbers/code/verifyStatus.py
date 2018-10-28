@@ -24,7 +24,8 @@ def verifyMember(p_link, status, payment):
     # more than 5 student or etudiant
 
     if status != 'Bachelor/Master student':
-        return payment
+        # accounts for empty cell case (nan is true)
+        return str(payment) == 'True'
 
     try:
         # the driver needs to be installed to use the following block
