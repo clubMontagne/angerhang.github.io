@@ -1,6 +1,6 @@
 ---
 layout: post
-title: elodie Duliscouet
+title: Paulin de Schoulepnikoff
 ---
 
 Status: Bachelor/Master student
@@ -8,5 +8,5 @@ Status: Bachelor/Master student
 Expiration date: 2019.01.01
 
 Validity: <font color="green"> Verified</font> 
-![](/members/img/elodie_Duliscouet.png)
+![](/members/img/Paulin_de Schoulepnikoff.png)
 ![](/members/img/bar.png)
