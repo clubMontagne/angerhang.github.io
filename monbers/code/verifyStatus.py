@@ -197,20 +197,20 @@ def process_info(info_path, photo_path):
 
         # 5. send QR code to the email
 
-        try:
-            send_email(row['Email Address'])
-            email_f.append(True)
-        except Exception as e: 
-            print (e)
-            # wrong_emails.append(row['Email Address'])
-            email_f.append(False)
-            if_complete = False
+        # try:
+        #     send_email(row['Email Address'])
+        #     email_f.append(True)
+        # except Exception as e: 
+        #     print (e)
+        #     # wrong_emails.append(row['Email Address'])
+        #     email_f.append(False)
+        #     if_complete = False
 
         completions.append(if_complete)
         print('.....done! ')
         print('Elapsed time: {}'.format(time() - start) + '\n')
 
-    df['Email_sent'] = email_f
+    # df['Email_sent'] = email_f
     df['Payment'] = validities
     df['If_complete'] = completions
     df.to_csv("final.csv", index=False)
