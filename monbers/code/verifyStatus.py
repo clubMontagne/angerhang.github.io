@@ -119,21 +119,23 @@ def send_email(dest_email):
     attachment = 'image.jpg'
 
     msg = MIMEMultipart()
-    msg["To"] = "info@clubmontagne.ch"
-    msg["From"] = "clubMontagne2018@gmail.com"
+    msg["To"] = dest_email
+    msg["From"] = "clubmontagneepfl@gmail.com"
     msg["Subject"] = "Your membership QR code"
+    msg.add_header('reply-to', 'card@clubmontagne.ch')
     text = """\
         Salut!
 
-        Thank you again for your support. Here is your membership
-        card for Club Montagne at EPFL. Keep it with you whenever
-        someone ask for a confirmation of your membership.
+        Thank you again for your support. Here is your membership card for Club Montagne EPFL. Keep 
+        it with you whenever someone ask for a confirmation of your membership.
         
-        Just a reminder if your membership status is not valid, you will need to pay the membership
-        fees which can be done at the rental sessions. (more info at https://clubmontagne.epfl.ch/equipment/en).
+        Program details and member benefits you can find at https://clubmontagne.epfl.ch/page-153043-en.html.
+
+        If your membership status is not valid, you will need to pay the membership fees which can 
+        be done at the rental sessions. More about rental sessions at https://clubmontagne.epfl.ch/equipment/en.
         
         Lastly, if you have any questions or suggestions, feel free to email
-        us at info@clubmontagne.ch :D 
+        us at card@clubmontagne.ch :D 
 
         Cheers,
         Club Montagne 
@@ -156,9 +158,9 @@ def send_email(dest_email):
     mailserver.starttls()
     # re-identify ourselves as an encrypted connection
     mailserver.ehlo()
-    mailserver.login('clubMontagne2018@gmail.com', '<add clear text password here>')
+    mailserver.login('clubmontagneepfl@gmail.com', '<add clear text password here>')
 
-    mailserver.sendmail('clubMontagne2018@gmail.com', dest_email, msg.as_string())
+    mailserver.sendmail('clubmontagneepfl@gmail.com', dest_email, msg.as_string())
 
     mailserver.quit()
 
@@ -194,6 +196,7 @@ def process_info(info_path, photo_path):
         generateQR(base_link + row['First name'] + '_' + row['Last name'])
 
         # 5. send QR code to the email
+
         try:
             send_email(row['Email Address'])
             email_f.append(True)
