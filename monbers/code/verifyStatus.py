@@ -184,7 +184,7 @@ def process_info(info_path, photo_path):
         # try:
         #     pic_id = row['Profile picture']
         #     pic_id = pic_id.split("id=",1)[1]
-        #     img_name = row['First name'] + '_' + row['Last name'] + '.png'
+        img_name = row['First name'] + '_' + row['Last name'] + '.png'
         #     download_file_from_google_drive(pic_id, photo_path + img_name)
         # except Exception as e: 
         #     print (e)
