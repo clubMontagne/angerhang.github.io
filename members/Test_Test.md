@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Paulin de Schoulepnikoff
+title: Test Test
 ---
 
-Status: Bachelor/Master student
+Status: External
 
 Expiration date: 2019.01.01
 
 Validity: <font color="red"> Not valid</font> 
-![](/members/img/Paulin_de Schoulepnikoff.png)
+![](/members/img/Test_Test.png)
 ![](/members/img/bar.png)
