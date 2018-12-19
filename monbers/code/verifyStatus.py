@@ -45,6 +45,7 @@ def verifyMember(p_link, status, payment):
         print ("http request failed. Member is not verified")
     return False
 
+
 def generateQR(link):
     # Create qr code instance
     # QR code links to the generated link for each member
@@ -127,15 +128,14 @@ def send_email(dest_email):
         Salut!
 
         Thank you again for your support. Here is your membership card for Club Montagne EPFL. Keep 
-        it with you whenever someone ask for a confirmation of your membership.
+        it with you whenever someone asks for a confirmation of your membership.
         
-        Program details and member benefits you can find at https://clubmontagne.epfl.ch/page-153043-en.html.
+        You can find the program details and the members' benefits at https://clubmontagne.epfl.ch/page-153043-en.html.
 
-        If your membership status is not valid, you will need to pay the membership fees which can 
-        be done at the rental sessions. More about rental sessions at https://clubmontagne.epfl.ch/equipment/en.
+        If your membership status is marked as not valid, you need to pay the membership fees at one of
+        the rental sessions. More information about rental sessions at https://clubmontagne.epfl.ch/equipment/en.
         
-        Lastly, if you have any questions or suggestions, feel free to email
-        us at card@clubmontagne.ch :D 
+        If you have any questions or suggestions, feel free to email us at card@clubmontagne.ch :D
 
         Cheers,
         Club Montagne 
