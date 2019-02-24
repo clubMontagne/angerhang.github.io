@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sandrine Siu
+title: Patricia  Zundritsch
 ---
 
 Status: Bachelor/Master student
@@ -8,5 +8,5 @@ Status: Bachelor/Master student
 Expiration date: 2019.01.01
 
 Validity: <font color="red"> Not valid</font> 
-![](/members/img/Sandrine_Siu.png)
+![](/members/img/Patricia _Zundritsch.png)
 ![](/members/img/bar.png)

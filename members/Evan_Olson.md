@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Sandrine Siu
+title: Evan Olson
 ---
 
-Status: Bachelor/Master student
+Status: External
 
 Expiration date: 2019.01.01
 
 Validity: <font color="red"> Not valid</font> 
-![](/members/img/Sandrine_Siu.png)
+![](/members/img/Evan_Olson.png)
 ![](/members/img/bar.png)

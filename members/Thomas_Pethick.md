@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Sandrine Siu
+title: Thomas Pethick
 ---
 
-Status: Bachelor/Master student
+Status: External
 
 Expiration date: 2019.01.01
 
 Validity: <font color="red"> Not valid</font> 
-![](/members/img/Sandrine_Siu.png)
+![](/members/img/Thomas_Pethick.png)
 ![](/members/img/bar.png)

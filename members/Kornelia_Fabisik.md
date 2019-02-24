@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Sandrine Siu
+title: Kornelia Fabisik
 ---
 
-Status: Bachelor/Master student
+Status: Phd student
 
 Expiration date: 2019.01.01
 
 Validity: <font color="red"> Not valid</font> 
-![](/members/img/Sandrine_Siu.png)
+![](/members/img/Kornelia_Fabisik.png)
 ![](/members/img/bar.png)

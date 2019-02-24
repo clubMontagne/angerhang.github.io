@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Sandrine Siu
+title: Sangram Ashok Savant
 ---
 
-Status: Bachelor/Master student
+Status: Phd student
 
 Expiration date: 2019.01.01
 
 Validity: <font color="red"> Not valid</font> 
-![](/members/img/Sandrine_Siu.png)
+![](/members/img/Sangram Ashok_Savant.png)
 ![](/members/img/bar.png)

@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Sandrine Siu
+title: Semin Kwak
 ---
 
-Status: Bachelor/Master student
+Status: Phd student
 
 Expiration date: 2019.01.01
 
 Validity: <font color="red"> Not valid</font> 
-![](/members/img/Sandrine_Siu.png)
+![](/members/img/Semin_Kwak.png)
 ![](/members/img/bar.png)

@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Sandrine Siu
+title: Manon Jaquerod
 ---
 
-Status: Bachelor/Master student
+Status: Phd student
 
 Expiration date: 2019.01.01
 
 Validity: <font color="red"> Not valid</font> 
-![](/members/img/Sandrine_Siu.png)
+![](/members/img/Manon_Jaquerod.png)
 ![](/members/img/bar.png)
