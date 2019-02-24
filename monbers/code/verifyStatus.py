@@ -23,6 +23,10 @@ def verifyMember(p_link, status, payment):
     # without doctoral
     # more than 5 student or etudiant
 
+    # if Payment col contains true, trust it
+    if str(payment) == 'True':
+        return True
+
     if status != 'Bachelor/Master student':
         # accounts for empty cell case (nan is true)
         return str(payment) == 'True'
