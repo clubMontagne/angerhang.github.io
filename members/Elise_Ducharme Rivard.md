@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Kirtan Padh
+title: Elise Ducharme Rivard
 ---
 
-Status: Bachelor/Master student
+Status: External
 
 Expiration date: 2019.01.01
 
 Validity: <font color="red"> Not valid</font> 
-![](/members/img/Kirtan_Padh.png)
+![](/members/img/Elise_Ducharme Rivard.png)
 ![](/members/img/bar.png)
