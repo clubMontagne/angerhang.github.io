@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Paulin de Schoulepnikoff
+title: Marc Jacquart
 ---
 
 Status: Bachelor/Master student
@@ -8,5 +8,5 @@ Status: Bachelor/Master student
 Expiration date: 2019.01.01
 
 Validity: <font color="red"> Not valid</font> 
-![](/members/img/Paulin_de Schoulepnikoff.png)
+![](/members/img/Marc_Jacquart.png)
 ![](/members/img/bar.png)
