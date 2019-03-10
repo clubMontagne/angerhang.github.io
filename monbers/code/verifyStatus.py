@@ -23,6 +23,10 @@ def verifyMember(p_link, status, payment):
     # without doctoral
     # more than 5 student or etudiant
 
+    # if Payment col contains true, trust it
+    if str(payment) == 'True':
+        return True
+
     if status != 'Bachelor/Master student':
         # accounts for empty cell case (nan is true)
         return str(payment) == 'True'
@@ -34,9 +38,11 @@ def verifyMember(p_link, status, payment):
         web_page = browser.page_source
         browser.quit()
 
-        if '<a href="#">Student	</a>' in web_page:
+        if '<h4>Student</h4>' in web_page:
             return True
-        elif '<a href="#">Etudiant	</a>' in web_page:
+        elif '<h4>Etudiant</h4>' in web_page:
+            return True
+        elif '<h4>Etudiante</h4>' in web_page:
             return True
         else:
             return False
