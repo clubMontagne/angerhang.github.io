@@ -1,0 +1,12 @@
+---
+layout: post
+title: William Cappelletti
+---
+
+Status: Bachelor/Master student
+
+Expiration date: 2019.01.01
+
+Validity: <font color="green"> Verified</font> 
+![](/members/img/William_Cappelletti.png)
+![](/members/img/bar.png)

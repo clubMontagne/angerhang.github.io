@@ -3,7 +3,7 @@ layout: post
 title: Clément Mercier
 ---
 
-Status: Bachelor/Master student
+Status: External
 
 Expiration date: 2019.01.01
 
