@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Juan Francisco Gonzalez Marin
+title: Michael Schäfers
 ---
 
-Status: Phd student
+Status: Bachelor/Master student
 
 Expiration date: 2019.01.01
 
 Validity: <font color="green"> Verified</font> 
-![](/members/img/Juan Francisco_Gonzalez Marin.png)
+![](/members/img/Michael_Schäfers.png)
 ![](/members/img/bar.png)
