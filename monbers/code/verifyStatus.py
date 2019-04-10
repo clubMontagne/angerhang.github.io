@@ -1,10 +1,8 @@
 import qrcode
 from time import time
-import webbrowser
 import requests
 import sys
 import pandas as pd
-from selenium import webdriver
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText  # Added
 from email.mime.image import MIMEImage
@@ -123,24 +121,55 @@ def send_email(dest_email):
     msg["From"] = "clubmontagneepfl@gmail.com"
     msg["Subject"] = "Your membership QR code"
     msg.add_header('reply-to', 'card@clubmontagne.ch')
-    text = """\
-        Salut!
+    text = """
+    <p>
+        Dear Club Montagne member,
+    </p>
+    <p>
+        Please find attached the QR-Code linked to your Club Montagne membership card.
+    </p>
 
-        Thank you again for your support. Here is your membership card for Club Montagne EPFL. Keep 
-        it with you whenever someone asks for a confirmation of your membership.
-        
-        You can find the program details and the members' benefits at https://clubmontagne.epfl.ch/page-153043-en.html.
+    <p>
+        Keep it safely stored in your smartphone, and get it ready to be scanned anytime you want to use it with our partners. Attention please : our partners are free to decline your request of benefiting from your advantages unless you show your QR-Code*, make sure you have it with you before asking the people to take advantage of it!
+    </p>
 
-        If your membership status is marked as not valid, you need to pay the membership fees at one of
-        the rental sessions. More information about rental sessions at https://clubmontagne.epfl.ch/equipment/en.
-        
-        If you have any questions or suggestions, feel free to email us at card@clubmontagne.ch :D
+    <p>
+        *If you are not a Bachelor nor a Master student at EPFL, you need to pay a CHF 10.- fee to activate the card. If you didn't pay yet, the card is marked as not valid. Activate the card by reaching us during rental sessions in EPFL !
+    </p>
+    <p>
+        <a
+         href="https://clubmontagne.epfl.ch/"
+         target="_blank"
+        >
+            Click here for more information about the Club Montagne.
+        </a>
+    </p>
+    <p>
+        <a
+         href="https://clubmontagne.epfl.ch/carte-membre/"
+         target="_blank"
+        >
+            Click here for more information about the Membership Card and the advantages you get with it.
+        </a>
+    </p>
+    <p>
+        <a
+         href="https://clubmontagne.epfl.ch/equipment-fr/"
+         target="_blank"
+        >
+            Click here for more information about the Rental sessions.
+        </a>
+    </p>
+    <p>
+        Let the force be with you,
+    </p>
 
-        Cheers,
-        Club Montagne 
+    <p>
+        Club Montagne
+    </p>
     """
 
-    content = MIMEText(text, 'plain')
+    content = MIMEText(text, 'html')
     msg.attach(content)
 
     fp = open(attachment, 'rb')
@@ -165,8 +194,6 @@ def send_email(dest_email):
 def process_info(info_path):
     start = time()
     df = pd.read_csv(info_path)
-    validities = []
-    email_f = []
     completions = []
 
     for index, row in df.iterrows():
@@ -175,7 +202,6 @@ def process_info(info_path):
 
         # 1. validate member page
         validity = verifyMember(row['EPFL personal page link'], row['Status'], row['Payment'])
-        validities.append(validity)
 
         img_name = row['First name'] + '_' + row['Last name'] + '.png'
 
@@ -190,23 +216,15 @@ def process_info(info_path):
 
         # 5. send QR code to the email
 
-        # try:
-        #     send_email(row['Email Address'])
-        #     email_f.append(True)
-        # except Exception as e: 
-        #     print (e)
-        #     # wrong_emails.append(row['Email Address'])
-        #     email_f.append(False)
-        #     if_complete = False
+        try:
+            print("Sending email to: ", row['First name'], row['Last name'])
+            send_email(row['Email Address'])
+        except Exception as e:
+            print(e)
 
         completions.append(if_complete)
         print('.....done! ')
         print('Elapsed time: {}'.format(time() - start) + '\n')
-
-    # df['Email_sent'] = email_f
-    df['Payment'] = validities
-    df['If_complete'] = completions
-    df.to_csv("final.csv", index=False)
 
 
 # specify the excel to process
