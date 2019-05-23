@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Noam Ghenassia
+title: Yohann Daswani
 ---
 
 Status: Bachelor/Master student
@@ -8,5 +8,5 @@ Status: Bachelor/Master student
 Expiration date: 2019.01.01
 
 Validity: <font color="green"> Verified</font> 
-![](/members/img/Noam_Ghenassia.png)
+![](/members/img/Yohann_Daswani.png)
 ![](/members/img/bar.png)

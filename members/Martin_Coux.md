@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Noam Ghenassia
+title: Martin Coux
 ---
 
-Status: Bachelor/Master student
+Status: External
 
 Expiration date: 2019.01.01
 
 Validity: <font color="green"> Verified</font> 
-![](/members/img/Noam_Ghenassia.png)
+![](/members/img/Martin_Coux.png)
 ![](/members/img/bar.png)
