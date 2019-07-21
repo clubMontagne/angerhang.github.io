@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Lucas Lometti
+title: Yann Haddad
 ---
 
 Status: Bachelor/Master student
 
 Expiration date: 2019.01.01
 
-Validity: <font color="red"> Not valid</font> 
-![](/members/img/Lucas_Lometti.png)
+Validity: <font color="green"> Verified</font> 
+![](/members/img/Yann_Haddad.png)
 ![](/members/img/bar.png)

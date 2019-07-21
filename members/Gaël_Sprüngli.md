@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Joseph Lemaitre
+title: Gaël Sprüngli
 ---
 
-Status: Phd student
+Status: Bachelor/Master student
 
 Expiration date: 2019.01.01
 
 Validity: <font color="red"> Not valid</font> 
-![](/members/img/Joseph_Lemaitre.png)
+![](/members/img/Gaël_Sprüngli.png)
 ![](/members/img/bar.png)

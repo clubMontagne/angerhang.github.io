@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Lucas Lometti
+title: Jérôme Savary
 ---
 
 Status: Bachelor/Master student
 
 Expiration date: 2019.01.01
 
-Validity: <font color="red"> Not valid</font> 
-![](/members/img/Lucas_Lometti.png)
+Validity: <font color="green"> Verified</font> 
+![](/members/img/Jérôme_Savary.png)
 ![](/members/img/bar.png)

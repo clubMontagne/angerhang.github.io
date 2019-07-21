@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Joseph Lemaitre
+title: Matteo Vallar
 ---
 
-Status: Phd student
+Status: External
 
 Expiration date: 2019.01.01
 
 Validity: <font color="red"> Not valid</font> 
-![](/members/img/Joseph_Lemaitre.png)
+![](/members/img/Matteo_Vallar.png)
 ![](/members/img/bar.png)
